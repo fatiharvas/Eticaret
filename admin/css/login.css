@@ -1,0 +1,57 @@
+body {
+    background-color: steelblue;
+    margin: 0;
+    height: 0;
+    font-family: Calibri;
+}
+
+.container {
+    height: 550px;
+    width: 400px;
+    background-color: #ffffff;
+    position: absolute;
+    transform: translate(500px, 150px);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px;
+
+}
+
+h1 {
+    position: relative;
+    transform: translate(85px,50px);
+    text-transform: uppercase;
+    color: #2b2b2b;
+    height: 70px;
+}
+.flaticon-profile{
+    font-size: 100px;
+    display: inline-block;
+    transform: translate(150px,25px);
+    color: #005cbf;
+}
+.input {
+    display: block;
+    position: relative;
+    width: 300px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    transform: translate(40px, 30px);
+    background: none;
+    outline: none;
+    border: 2px solid #d9d7d7;
+    font-size: 20px;
+    padding:5px;
+    border-radius: 5px;
+}
+section > button {
+    display: block;
+    position: relative;
+    transform: translate(150px, 10px);
+    font-size: 15px;
+    color: white;
+    width: 100px;
+    height: 45px;
+    border-radius: 7px ;
+    background-color: #005cbf;
+}
+

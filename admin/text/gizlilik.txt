@@ -1,0 +1,270 @@
+KİŞİSEL VERİLERİN KORUNMASINA İLİŞKİN AYDINLATMA METNİ
+
+DSM Grup Danışmanlık İletişim ve Satış Ticaret A.Ş. ("Trendyol" veya "Şirket") olarak; kişisel verilerinizin gizliliği ve güvenliği en önemli önceliklerimiz arasındadır. Bu kapsamda 6698 sayılı Kişisel Verilerin Korunması Kanunu’nun ("KVKK") 10. maddesinden doğan aydınlatma yükümlülüğümüzü yerine getirmek amacıyla kişisel verileriniz hakkında sizleri bilgilendirmek isteriz. Kişisel veri, kimliğinizi belirli ya da belirlenebilir kılan her türlü bilgi anlamına gelmektedir. Trendyol tarafından tarafından işlenen kişisel verileriniz, bunların işlenme amaçları, aktarılabileceği alıcı grupları, toplanma yöntemi, hukuki sebebi ve söz konusu kişisel verilere ilişkin haklarınız aşağıda yer almaktadır.
+
+   A- ÜYELERİMİZ
+
+     1-  Trendyol tarafından hangi kişisel verileriniz işlenmektedir?
+
+Trendyol platformunda yer alan üyelik koşullarını kabul ederek web sitesinden veya mobil cihazlara kurulan uygulamadan giriş yapan ve platformda yer alan ürünleri takip eden ve/veya satın alan kişiler "Üye" olarak tanımlanmaktadır. Trendyol platformunda üye olmanız halinde aşağıdaki kişisel verileriniz işlenebilmektedir.
+
+•  Kimlik Bilgileriniz: adınız, soyadınız, cinsiyet ve yaş bilginiz, TCKN (yalnızca belli ürün gruplarını satın almanız halinde mevzuat uyarınca işlenmektedir.)
+•  İletişim Bilgileriniz: cep telefonu numaranız, teslimat adresiniz, e-posta adresiniz,
+•  Müşteri İşlem Bilgileriniz: sipariş ve fatura bilgileriniz, teslimat işlem bilgileriniz, alışverişlerinizle ilgili gerçekleşen işlem geçmişi bilgisi, talep ve şikayet bilgileriniz, platformda yer alan ürünlere ilişkin yorum yapmanız ve/veya soru sormanız halinde yorum ve sorularınız içerisinde bizzat paylaştığınız bilgiler, Trendyol asistan ile chat kanalıyla yapılan konuşma içeriklerine yönelik bilgiler,
+•  İşlem Güvenliği Bilgileriniz: IP adresi bilgisi, şifre ve parola bilgileri, çerez bilgileri,
+•  Hukuki İşlem Bilgileriniz: yetkili kişi, kurum ve kuruluşlarla yazışmalardaki bilgiler, dava ve icra dosyalarındaki bilgiler, yasal bilgi talebi bilgileriniz,
+•  İşitsel Kayıt Bilgileriniz: çağrı merkeziyle görüşmeniz halinde ses kaydınız.
+
+     2-  Kişisel verilerinizin işlenmesinin amaçları ve toplama yöntemleri nelerdir?
+
+Kimlik, iletişim ve müşteri işlem bilgileriniz; sözleşmesel ilişkimiz kapsamında bizzat sizlerden, mobil uygulama ya da internet sitesinden elektronik ortamda otomatik olarak aşağıdaki amaçlarla toplanmakta ve işlenmektedir.
+
+•  Sözleşmenin kurulması ve ifasına yönelik süreçlerin yürütülmesi,
+•  Finans ve muhasebe süreçlerinin yürütülmesi ve denetimi,
+•  Şirketin iş faaliyetlerinin yürütülmesi ve denetimi,
+•  Faturalandırma süreçlerinin yürütülmesi,
+•  Lojistik, kargo faaliyetlerin yürütülmesi ve teslimat süreçlerinin takibinin yapılması,
+•  İnternet sitesi/mobil uygulamalar üzerinden satın alım işlemlerinin gerçekleşmesi ve işlem yapanın kimlik bilgilerinin teyit edilmesi,
+•  Açık rızanızın bulunması halinde, çeşitli pazarlama ve reklam faaliyetlerinde kullanabilmesi, tercihlerinize uygun ürünlerin tarafınıza sunulması başta olmak üzere sizlere daha iyi bir alışveriş deneyiminin sağlanması ve memnuniyetinizin arttırılmasına yönelik faaliyetlerin yürütülmesi,
+•  Müşteri memnuniyetini artırmak, platformdan alışveriş yapan müşterilerimizi tanıyabilmek ve müşteri çevresi analizinde kullanabilmek, Şirketimizin sunduğu ürün ve hizmetlerin geliştirilmesi ve iyileştirilmesine yönelik faaliyetlerin yürütülmesi,
+•  Stratejik analiz çalışmalarının yürütülmesi,
+•  İletişim faaliyetlerinin yürütülmesi,
+•  İlgi alanlarınızı dikkate alarak ilgilenebileceğiniz ürünlerin sunulması,
+•  Mesafeli satış sözleşmesi ve Tüketicinin Korunması Hakkında Kanun'un ilgili maddeleri tahtında platformumuz üzerinden akdedilen sözleşmelerin koşulları, güncel durumu ve güncellemeler ile ilgili iletişime geçilmesi ve gerekli bilgilendirmelerin yapılması,
+•  Açık rızanızın bulunması halinde, Trendyol nezdindeki gelişmeler, fırsatlar ve yenilikler hakkında tarafınıza bilgi verilmesi,
+•  İnternet sitesi ve/veya mobil uygulamalardan alışveriş yapan müşterilerimizin tanınması, müşteri çevresi analizinde kullanılmasına yönelik faaliyetlerin yürütülmesi ve bu kapsamda anlaşmalı kuruluşlar aracılığıyla elektronik ortamda ve/veya fiziki ortamda anket çalışmaları yapılması,
+•  Ürün ve hizmetlerimize ilişkin talep, şikayet ve önerilerinizin değerlendirilmesi,
+•  Ürünlere yönelik bilgi almanızın sağlanması,
+•  Mal ve hizmet satış sonrası destek hizmetlerinin yürütülmesi,
+•  Bilgi güvenliği süreçlerinin yürütülmesi,
+•  Trendyol platformuna ilişkin olarak operasyonların güvenliğinin sağlanması,
+•  Faaliyetlerin mevzuata uygun yürütülmesinin sağlanması,
+•  Hukuk işlerinin takibi ve yürütülmesi,
+•  Yetkili kişi, kamu kurum ve kuruluşlarına bilgi verilmesi.
+
+İşlem güvenliği bilgileriniz; sözleşmesel ilişkimiz kapsamında bizzat sizlerden, mobil uygulama ya da internet sitesinden elektronik ortamda otomatik olarak aşağıdaki amaçlarla toplanmakta ve işlenmektedir.
+
+•  Sözleşmenin kurulması ve ifasına yönelik süreçlerin yürütülmesi,
+•  Şirketin iş faaliyetlerinin yürütülmesi ve denetimi,
+•  İnternet sitesi/mobil uygulamalar üzerinden satın alım işlemlerinin gerçekleşmesi ve işlem yapanın kimlik bilgilerinin teyit edilmesi,
+•  Açık rızanızın bulunması halinde, çeşitli pazarlama ve reklam faaliyetlerinde kullanabilmesi, tercihlerinize uygun ürünlerin tarafınıza sunulması başta olmak üzere sizlere daha iyi bir alışveriş deneyiminin sağlanması ve memnuniyetinizin arttırılmasına yönelik faaliyetlerin yürütülmesi,
+•  Müşteri memnuniyetini artırmak, platformdan alışveriş yapan müşterilerimizi tanıyabilmek ve müşteri çevresi analizinde kullanabilmek, Şirketimizin sunduğu ürün ve hizmetlerin geliştirilmesi ve iyileştirilmesine yönelik faaliyetlerin yürütülmesi,
+•  Bilgi güvenliği süreçlerinin yürütülmesi,
+•  Trendyol platformuna ilişkin olarak operasyonların güvenliğinin sağlanması,
+•  Faaliyetlerin mevzuata uygun yürütülmesinin sağlanması,
+•  Yetkili kişi, kurum ve kuruluşlara bilgi verilmesi.
+
+Hukuki işlem bilgileriniz; sözleşmesel ilişkimiz kapsamında bizzat sizlerden, mobil uygulama, internet sitesinden elektronik ortamda otomatik olarak aşağıdaki amaçlarla toplanmakta ve işlenmektedir.
+
+•  Sözleşmenin kurulması ve ifasına yönelik süreçlerin yürütülmesi,
+•  Şirketin iş faaliyetlerinin yürütülmesi ve denetimi,
+•  Ürün ve hizmetlerimize ilişkin talep, şikayet ve önerilerinizin değerlendirilmesi,
+•  Bilgi güvenliği süreçlerinin yürütülmesi,
+•  Trendyol platformuna ilişkin olarak operasyonların güvenliğinin sağlanması,
+•  Faaliyetlerin mevzuata uygun yürütülmesinin sağlanması,
+•  Hukuk işlerinin takibi ve yürütülmesi,
+•  Yetkili kişi, kurum ve kuruluşlara bilgi verilmesi.
+
+İşitsel kayıt bilgileriniz; çağrı merkeziyle iletişime geçmeniz halinde aşağıdaki amaçlarla toplanmakta ve işlenmektedir.
+
+•  Sözleşmenin kurulması ve ifasına yönelik süreçlerin yürütülmesi,
+•  İletişim faaliyetlerinin yürütülmesi,
+•  Kampanyaların yürütülmesi, tercihlerinize uygun ürünlerin tarafınıza sunulması başta olmak üzere sizlere daha iyi bir alışveriş deneyiminin sağlanması ve memnuniyetinizin arttırılmasına yönelik faaliyetlerin yürütülmesi,
+•  Şirketimizin sunduğu ürün ve hizmetlerin geliştirilmesi ve iyileştirilmesine yönelik faaliyetlerin yürütülmesi,
+•  İlgi alanlarınızı dikkate alarak ilgilenebileceğiniz ürünlerin sunulması,
+•  Mesafeli satış sözleşmesi ve Tüketicinin Korunması Hakkında Kanun'un ilgili maddeleri tahtında platformumuz üzerinden akdedilen sözleşmelerin koşulları, güncel durumu ve güncellemeler ile ilgili iletişime geçilmesi ve gerekli bilgilendirmelerin yapılması,
+•  Açık rızanızın bulunması halinde, Trendyol nezdindeki gelişmeler, fırsatlar ve yenilikler hakkında tarafınıza bilgi verilmesi,
+•  İnternet sitesi ve/veya mobil uygulamalardan alışveriş yapan müşterilerimizin tanınması, müşteri çevresi analizinde kullanılmasına yönelik faaliyetlerin yürütülmesi ve bu kapsamda anlaşmalı kuruluşlar aracılığıyla elektronik ortamda ve/veya fiziki ortamda anket çalışmaları yapılması,
+•  Ürün ve hizmetlerimize ilişkin talep, şikayet ve önerilerinizin değerlendirilmesi,
+•  Trendyol platformuna ilişkin olarak operasyonların güvenliğinin sağlanması,
+•  Faaliyetlerin mevzuata uygun yürütülmesinin sağlanması,
+•  Hukuk işlerinin takibi ve yürütülmesi,
+•  Yetkili kişi, kurum ve kuruluşlara bilgi verilmesi.
+
+     3-   Kişisel verilerinizin işlenmesinin hukuki sebebi nedir?
+
+Trendyol, "Trendyol tarafından hangi kişisel verileriniz işlenmektedir?" başlığında yer alan kişisel verilerinizi yukarıda yer alan amaçlarla KVKK'nın 5, 8. ve 9. maddelerinde belirtilen ve aşağıda yer verilen hukuka uygunluk sebeplerine dayanılarak işlenmektedir.
+
+•  6563 Elektronik Ticaretin Düzenlenmesi Hakkında Kanun, 6102 Sayılı Türk Ticaret Kanunu, 5237 Sayılı Türk Ceza Kanunu ve 6502 sayılı Tüketicinin Korunması Hakkında Kanun başta olmak üzere Şirketimizin tabi olduğu mevzuatta açıkça öngörülmüş olması hukuki sebebine dayanarak; şirket platformunda yer alan operasyonların güvenliğinin sağlanması, bilgi güvenliği süreçlerinin yürütülmesi, faaliyetlerin mevzuata uygun yürütülmesinin sağlanmasına yönelik faaliyetler başta olmak üzere mevzuattan kaynaklanan yükümlülüklerimizin yerine getirilmesi,
+•  Sözleşmenin kurulması veya ifasıyla doğrudan doğruya ilgili olması kaydıyla, kişisel verilerinizin işlenmesinin gerekli olması hukuki sebebine dayanarak; mesafeli satış sözleşmesi gibi Tüketicinin Korunması Hakkında Kanun'un ilgili maddeleri tahtında platformumuz üzerinden akdedilen sözleşmelerin kurulması faaliyetlerinin yürütülmesi, satın alım işlemlerinizin gerçekleştirilmesine yönelik faaliyetlerin yürütülmesi, şirketin iş faaliyetlerinin yürütülmesi ve denetimi, teslimat süreçlerinin takibinin yapılması, ürün ve hizmetlerimize ilişkin talep, şikayet ve önerilerinizin değerlendirilmesi, finans ve muhasebe süreçlerinin yürütülmesi ve denetimi, iletişim faaliyetlerinin yürütülmesi,
+•  Şirketimizin hukuki yükümlülüğünün yerine getirebilmesi için zorunlu olması hukuki sebebine dayanarak; Mesafeli Sözleşmeler Yönetmeliği ve Elektronik Ticarette Hizmet Sağlayıcı ve Aracı Hizmet Sağlayıcılar Hakkında Yönetmelik başta olmak üzere Şirketimizin tabii olduğu ikincil mevzuatta yer alan ve/veya yetkili merciiler tarafından yayınlanan karar, kılavuz ve rehberlerde belirtilen hukuki yükümlülüklerinin yerine getirilmesi, yetkili kişi, kurum ve kuruluşlara bilgi verilmesi, faaliyetlerin mevzuata uygun yürütülmesinin sağlanması, hukuk işlerinin takibi ve yürütülmesi, finans ve muhasebe işlerinin yürütülmesi,
+•  Bir hakkın tesisi, kullanılması veya korunması için veri işlemenin zorunlu olması hukuki sebebine dayanarak; hukuk ve dava işlerinin yürütülmesi,
+•  Temel hak ve özgürlüklerine zarar vermemek kaydıyla şirketimizin meşru menfaatleri için veri işlenmesinin zorunlu olması hukuki sebebine dayanarak; şirketimizin sunduğu ürün ve hizmetlerin geliştirilmesi ve iyileştirilmesine yönelik faaliyetlerin yürütülmesi,
+•  Açık rızanızın bulunması hukuki sebebine dayanarak; yurtdışına kişisel veri aktarımı yapılması.
+
+     4-   Trendyol kişisel verilerinizi kimlere hangi sebeplerle aktarıyor?
+
+Şirketimiz, kişisel verilerinizi "bilme gereği" ve "kullanma gereği" ilkelerine uygun olarak, gerekli veri minimizasyonunu sağlayarak ve gerekli teknik ve idari güvenlik tedbirlerini alarak işlemeye özen göstermektedir. İş faaliyetlerinin yürütülmesi veya denetimi, iş sürekliliğinin sağlanması, dijital altyapıların işletilmesi farklı paydaşlarla sürekli veri akışını zaruri kıldığı için işlediğimiz kişisel verileri belirli amaçlarla üçüncü kişilere aktarmak durumundayız. Ayrıca, sözleşmesel ve kanuni yükümlülüklerimizi tam ve gereği gibi yerine getirebilmemiz için kişisel verilerinizin doğru ve güncel olması çok önemlidir. Bunun için de muhtelif iş ortaklarıyla ve hizmet sağlayıcılarla çalışmak durumundayız.
+
+Kişisel verileriniz, pazaryeri operasyonun yürütülmesi, sipariş verdiğiniz ürünlerin teslimat süreçlerinin yürütülmesi, süreçlerinize yönelik yardım ve destek taleplerinizin yönetilmesi, deneyiminizin ve memnuniyetinizin arttırılmasına yönelik faaliyetlerin yürütülmesi, şirketimizin sunduğu ürün ve hizmetlerin geliştirilmesi ve iyileştirilmesine yönelik faaliyetlerin yürütülmesi, sizlere daha iyi bir alışveriş deneyiminin sağlanması ve memnuniyetinizin arttırılmasına yönelik faaliyetlerin yürütülmesi, iş sürekliliğinin sağlanması, bilgi güvenliğinin sağlanması, kanuni yükümlülüklerin yerine getirilmesi amaçları başta olmak üzere ve işbu aydınlatma metninin ikinci maddesinde belirtilen amaçlarla sınırlı olarak gerekli olduğu ölçüde:
+
+Şirketimizin tabi olduğu mevzuatta açıkça öngörülmüş olması ve hukuki yükümlülüğünün yerine getirebilmesi için zorunlu olması, sözleşmenin kurulması veya ifası için gerekli olması hukuki sebeplerine dayanarak;
+
+•  Satın alım süreçlerinin yürütülmesi amacıyla ürünün satıcısı ve hizmet sağlayıcıyla,
+•  Lojistik faaliyetlerin yürütülmesi ve teslimat süreçlerinin takibinin yapılması amacıyla sizin ve/veya ürünün adına teslim edileceği kişi bilgisi satın alınan ürünün satıcısıyla, kargo firmalarıyla ve özel kuryelerle,
+•  Faturalandırma süreçlerinin yürütülmesi amacıyla iş ortaklarımız, satın alınan ürünün satıcısı, danışmanlarımız ve hizmet sağlayıcılarımızla, bankalarla, mali müşavirlerimizle,
+•  Mal ve hizmet satış ve satış sonrası destek hizmetlerinin sunulması için çağrı merkezi hizmeti sunan iş ortakları ve diğer hizmet sağlayıcılarıyla,
+•  Hizmetlerin kalite kontrol, şikâyet yönetimi ve risk analizi alanında hizmet sunan iş ortakları ve hizmet sağlayıcılarıyla,
+•  Finansal ve muhasebe süreçlerinin yönetimi, risklerin tespiti, değerlendirilmesi, dolandırıcılıkların önlenmesi için ilgili iş ortaklarımız, danışmanlarımız ve hizmet sağlayıcılarımızla, bankalarla, mali müşavirlerimizle,
+•  Müşteriye e-faturasının elektronik olarak gönderilmesi için e-fatura iş ortağıyla; fiziki sözleşme veya fatura teslimatı yapılabilmesi amacıyla kargo ve kurye firmalarıyla, özel entegratör, bağımsız denetim, gümrük, mali müşavir/muhasebe hizmeti sunan iş ortaklarımızla,
+•  Vergisel yükümlülüklerin yerine getirilmesi için vergi daireleriyle, vergi denetimleri sırasında fatura ve tahsilat makbuzlarının T.C. Hazine ve Maliye Bakanlığı yetkilileriyle,
+•  Bilişim altyapımızı sağlayan, işleten veya hizmet sunan iş ortaklarımızla ve hizmet sağlayıcılarımızla,
+•  Risk yönetimi ve finansal raporlama süreçlerinin yürütülmesi alanında hizmet sunan iş ortaklarımızla,
+
+Bir hakkın tesisi, kullanılması veya korunması için veri işlemenin zorunlu olması, şirketimizin tabi olduğu mevzuatta açıkça öngörülmüş olması ve hukuki yükümlülüğünün yerine getirebilmesi için zorunlu olması hukuki sebeplerine dayanarak;
+
+•  Hukuki yükümlülüklerin yerine getirilmesi kapsamında avukatlar, denetçiler, adli bilişim uzmanları, siber güvenlik danışmanları, vergi danışmanları ile danışmanlık ve hizmet aldığımız diğer üçüncü kişilerle ve iş ortaklarıyla,
+•   Düzenleyici ve denetleyici kurumlar ile mahkeme ve icra müdürlükleri gibi yetkili kamu kurum ve kuruluşlarıyla,
+•   Kişisel verilerinizi talep etmeye yetkili olan diğer kamu kurum veya kuruluşlarıyla, yurtiçi ve/veya yurtdışında bulunan iştiraklerimizle, tedarikçilerimizle, iş ortaklarımızla, anlaşmalı olduğumuz bankalarla ve ürün veya hizmet aldığımız üçüncü kişilerle paylaşılabilmektedir.
+
+   B- MİSAFİR ÜYELERİMİZ
+
+    1-  Trendyol tarafından hangi kişisel verileriniz işlenmektedir?
+
+Trendyol platformuna üye olmaksızın platformda yer alan ürünleri takip eden ve/veya satın alan kişiler “Misafir Üye” olarak tanımlanmaktadır. Trendyol platformunu misafir üye olarak kullanmanız ve alışveriş yapmanız sırasında aşağıda yer alan kişisel verileriniz işlenmektedir.
+
+• Kimlik Bilgileriniz: adınız, soyadınız,
+• İletişim Bilgileriniz: cep telefonu numaranız, teslimat adresiniz, e-posta adresiniz,
+• Müşteri İşlem Bilgileriniz: sipariş ve bilgileri, fatura bilgileri, teslimat işlem bilgileri, alışverişlerinizle ilgili gerçekleşen işlem geçmişi bilgisi, talep ve şikayet bilgileri,
+• İşlem Güvenliği Bilgileriniz: IP adresi bilgileri, çerez bilgileri,
+• Hukuki İşlem Bilgileriniz: yetkili kişi, kurum ve kuruluşlarla yazışmalardaki bilgiler, dava ve icra dosyalarındaki bilgiler, yasal bilgi talebi bilgileriniz,
+• İşitsel Kayıt Bilgileriniz: çağrı merkeziyle görüşmeniz halinde ses kaydı veriniz.
+
+    2-  Kişisel verilerinizin işlenmesinin amaçları ve toplama yöntemleri nelerdir?
+
+Kimlik, iletişim ve müşteri işlem bilgileriniz; bizzat sizlerden, mobil uygulama ya da internet sitesinden elektronik ortamda otomatik olarak aşağıdaki amaçlarla toplanmakta ve işlenmektedir.
+
+• Sözleşmenin kurulması ve ifasına yönelik süreçlerin yürütülmesi,
+• Finans ve muhasebe süreçlerinin yürütülmesi ve denetimi,
+• Şirketin iş faaliyetlerinin yürütülmesi ve denetimi,
+• Lojistik faaliyetlerin yürütülmesi ve teslimat süreçlerinin takibinin yapılması,
+• İnternet sitesi/ mobil uygulamalar üzerinden satın alım işlemlerinin gerçekleşmesi ve işlem yapanın kimlik bilgilerinin teyit edilmesi,
+• Şirketimizin sunduğu ürün ve hizmetlerin geliştirilmesi ve iyileştirilmesine yönelik faaliyetlerin yürütülmesi,
+• Stratejik analiz çalışmalarının yürütülmesi,
+• İletişim faaliyetlerinin yürütülmesi,
+• Mesafeli satış sözleşmesi ve Tüketicinin Korunması Hakkında Kanun'un ilgili maddeleri tahtında platformumuz üzerinden akdedilen sözleşmelerin koşulları, güncel durumu ve güncellemeler ile ilgili iletişime geçilmesi ve gerekli bilgilendirmelerin yapılması,üyelik sözleşmesinin kurulması,
+• Ürün ve hizmetlerimize ilişkin talep, şikayet ve önerilerinin değerlendirilmesi,
+• Mal ve hizmet satış sonrası destek hizmetlerinin yürütülmesi,
+• Bilgi güvenliği süreçlerinin yürütülmesi,
+• Trendyol platformuna ilişkin olarak operasyonların güvenliğinin sağlanması,
+• Faaliyetlerin mevzuata uygun yürütülmesinin sağlanması,
+• Hukuk işlerinin takibi ve yürütülmesi,
+• Yetkili kişi, kurum ve kuruluşlara bilgi verilmesi.
+
+İşlem güvenliği bilgileriniz; bizzat sizlerden, mobil uygulama ya da internet sitesinden elektronik ortamda otomatik olarak aşağıdaki amaçlarla toplanmakta ve işlenmektedir.
+
+• Sözleşmenin kurulması ve ifasına yönelik süreçlerin yürütülmesi,
+• Şirketin iş faaliyetlerinin yürütülmesi ve denetimi,
+• İnternet sitesi/ mobil uygulamalar üzerinden satın alım işlemlerinin gerçekleşmesi ve işlem yapanın kimlik bilgilerinin teyit edilmesi,
+• Şirketimizin sunduğu ürün ve hizmetlerin geliştirilmesi ve iyileştirilmesine yönelik faaliyetlerin yürütülmesi,
+• Bilgi güvenliği süreçlerinin yürütülmesi,
+• Trendyol platformuna ilişkin olarak operasyonların güvenliğinin sağlanması,
+• Faaliyetlerin mevzuata uygun yürütülmesinin sağlanması,
+• Yetkili kişi, kurum ve kuruluşlara bilgi verilmesi.
+
+Hukuki işlem bilgileriniz; bizzat sizlerden, mobil uygulama, internet sitesinden elektronik ortamda otomatik olarak aşağıdaki amaçlarla toplanmakta ve işlenmektedir.
+
+• Sözleşmenin kurulması ve ifasına yönelik süreçlerin yürütülmesi,
+• Şirketin iş faaliyetlerinin yürütülmesi ve denetimi,
+• Şirketimizin sunduğu ürün ve hizmetlerin geliştirilmesi ve iyileştirilmesine yönelik faaliyetlerin yürütülmesi,
+• Ürün ve hizmetlerimize ilişkin talep, şikayet ve önerilerinizin değerlendirilmesi,
+• Bilgi güvenliği süreçlerinin yürütülmesi,
+• Trendyol platformuna ilişkin olarak operasyonların güvenliğinin sağlanması,
+• Faaliyetlerin mevzuata uygun yürütülmesinin sağlanması,
+• Hukuk işlerinin takibi ve yürütülmesi,
+• Yetkili kişi, kurum ve kuruluşlara bilgi verilmesi.
+
+İşitsel kayıt bilgileriniz; çağrı merkeziyle iletişime geçmeniz halinde aşağıdaki amaçlarla toplanmakta ve işlenmektedir.
+
+• Sözleşmenin kurulması ve ifasına yönelik süreçlerin yürütülmesi,
+• İletişim faaliyetlerinin yürütülmesi,
+• Şirketimizin sunduğu ürün ve hizmetlerin geliştirilmesi ve iyileştirilmesine yönelik faaliyetlerin yürütülmesi,
+• Mesafeli satış sözleşmesi ve Tüketicinin Korunması Hakkında Kanun'un ilgili maddeleri tahtında platformumuz üzerinden akdedilen sözleşmelerin koşulları, güncel durumu ve güncellemeler ile ilgili iletişime geçilmesi ve gerekli bilgilendirmelerin yapılması,
+• Ürün ve hizmetlerimize ilişkin talep, şikayet ve önerilerinizin değerlendirilmesi,
+• Trendyol platformuna ilişkin olarak operasyonların güvenliğinin sağlanması,
+• Faaliyetlerin mevzuata uygun yürütülmesinin sağlanması,
+• Hukuk işlerinin takibi ve yürütülmesi,
+• Yetkili kişi, kurum ve kuruluşlara bilgi verilmesi.
+
+    3-  Kişisel verilerinizin işlenmesinin hukuki sebebi nedir ?
+
+Trendyol, “Trendyol tarafından hangi kişisel verileriniz işlenmektedir?” başlığında yer alan kişisel verilerinizi yukarıda yer alan amaçlarla KVKK’nın 5, 8. ve 9. maddelerinde belirtilen ve aşağıda yer verilen hukuka uygunluk sebeplerine dayanılarak işlenmektedir.
+
+• 6563 Elektronik Ticaretin Düzenlenmesi Hakkında Kanun, 6102 Sayılı Türk Ticaret Kanunu, 5237 Sayılı Türk Ceza Kanunu ve 6502 sayılı Tüketicinin Korunması Hakkında Kanun başta olmak üzere Şirketimizin tabi olduğu mevzuatta açıkça öngörülmüş olması hukuki sebebine dayanarak; şirket platformunda yer alan operasyonların güvenliğinin sağlanması, bilgi güvenliği süreçlerinin yürütülmesi, faaliyetlerin mevzuata uygun yürütülmesinin sağlanmasına yönelik faaliyetler başta olmak üzere mevzuattan kaynaklanan yükümlülüklerimizin yerine getirilmesi,,
+• Sözleşmenin kurulması veya ifasıyla doğrudan doğruya ilgili olması kaydıyla, kişisel verilerinizin işlenmesinin gerekli olması hukuki sebebine dayanarak; mesafeli satış sözleşmesi gibi Tüketicinin Korunması Hakkında Kanun'un ilgili maddeleri tahtında platformumuz üzerinden akdedilen sözleşmelerin kurulması faaliyetlerinin yürütülmesi, satın alım işlemlerinizin gerçekleştirilmesine yönelik faaliyetlerin yürütülmesi, şirketin iş faaliyetlerinin yürütülmesi ve denetimi, teslimat süreçlerinin takibinin yapılması, ürün ve hizmetlerimize ilişkin talep, şikayet ve önerilerinizin değerlendirilmesi, finans ve muhasebe süreçlerinin yürütülmesi ve denetimi, iletişim faaliyetlerinin yürütülmesi,
+• Şirketimizin hukuki yükümlülüğünün yerine getirebilmesi için zorunlu olması hukuki sebebine dayanarak; Mesafeli Sözleşmeler Yönetmeliği ve Elektronik Ticarette Hizmet Sağlayıcı ve Aracı Hizmet Sağlayıcılar Hakkında Yönetmelik başta olmak üzere Şirketimizin tabii olduğu ikincil mevzuatta yer alan ve/veya yetkili merciiler tarafından yayınlanan karar, kılavuz ve rehberlerde belirtilen hukuki yükümlülüklerinin yerine getirilmesi, yetkili kişi, kurum ve kuruluşlara bilgi verilmesi, faaliyetlerin mevzuata uygun yürütülmesinin sağlanması, hukuk işlerinin takibi ve yürütülmesi, finans ve muhasebe işlerinin yürütülmesi,
+• Bir hakkın tesisi, kullanılması veya korunması için veri işlemenin zorunlu olması hukuki sebebine dayanarak; hukuk ve dava işlerinin yürütülmesi,
+• Temel hak ve özgürlüklerine zarar vermemek kaydıyla şirketimizin meşru menfaatleri için veri işlenmesinin zorunlu olması hukuki sebebine dayanarak; şirketimizin sunduğu ürün ve hizmetlerin geliştirilmesi ve iyileştirilmesine yönelik faaliyetlerin yürütülmesi,
+• Açık rızanızın bulunması hukuki sebebine dayanarak; yurtdışına kişisel veri aktarımı yapılması.
+
+    4-  Trendyol kişisel verilerinizi kimlere hangi sebeplerle aktarıyor?
+
+Şirketimiz, kişisel verilerinizi “bilme gereği” ve “kullanma gereği” ilkelerine uygun olarak, gerekli veri minimizasyonunu sağlayarak ve gerekli teknik ve idari güvenlik tedbirlerini alarak işlemeye özen göstermektedir. İş faaliyetlerinin yürütülmesi veya denetimi, iş sürekliliğinin sağlanması, dijital altyapıların işletilmesi farklı paydaşlarla sürekli veri akışını zaruri kıldığı için işlediğimiz kişisel verileri belirli amaçlarla üçüncü kişilere aktarmak durumundayız. Ayrıca, sözleşmesel ve kanuni yükümlülüklerimizi tam ve gereği gibi yerine getirebilmemiz için kişisel verilerinizin doğru ve güncel olması çok önemlidir. Bunun için de muhtelif iş ortaklarıyla ve hizmet sağlayıcılarla çalışmak durumundayız.
+
+Kişisel verileriniz, pazaryeri operasyonun yürütülmesi, sipariş verdiğiniz ürünlerin teslimat süreçlerinin yürütülmesi, süreçlerinize yönelik yardım ve destek taleplerinizin yönetilmesi, deneyiminizin ve memnuniyetinizin arttırılmasına yönelik faaliyetlerin yürütülmesi, şirketimizin sunduğu ürün ve hizmetlerin geliştirilmesi ve iyileştirilmesine yönelik faaliyetlerin yürütülmesi, sizlere daha iyi bir alışveriş deneyiminin sağlanması ve memnuniyetinizin arttırılmasına yönelik faaliyetlerin yürütülmesi, iş sürekliliğinin sağlanması, bilgi güvenliğinin sağlanması, kanuni yükümlülüklerin yerine getirilmesi amaçları başta olmak üzere ve işbu aydınlatma metninin ikinci maddesinde belirtilen amaçlarla sınırlı olarak gerekli olduğu ölçüde:
+
+Şirketimizin tabi olduğu mevzuatta açıkça öngörülmüş olması ve hukuki yükümlülüğünün yerine getirebilmesi için zorunlu olması, sözleşmenin kurulması veya ifası için gerekli olması hukuki sebeplerine dayanarak;
+
+• Satın alım süreçlerinin yürütülmesi amacıyla ürünün satıcısı ve hizmet sağlayıcıyla,
+• Lojistik faaliyetlerin yürütülmesi ve teslimat süreçlerinin takibinin yapılması amacıyla sizin ve/veya ürünün adına teslim edileceği kişi bilgisi satın alınan ürünün satıcısıyla, kargo firmalarıyla ve özel kuryelerle,
+• Faturalandırma süreçlerinin yürütülmesi amacıyla iş ortaklarımız, satın alınan ürünün satıcısı, danışmanlarımız ve hizmet sağlayıcılarımızla, bankalarla, mali müşavirlerimizle,
+• Mal ve hizmet satış ve satış sonrası destek hizmetlerinin sunulması için çağrı merkezi hizmeti sunan iş ortakları ve diğer hizmet sağlayıcılarıyla,
+• Hizmetlerin kalite kontrol, şikâyet yönetimi ve risk analizi alanında hizmet sunan iş ortakları ve hizmet sağlayıcılarıyla,
+• Finansal ve muhasebe süreçlerinin yönetimi, risklerin tespiti, değerlendirilmesi, dolandırıcılıkların önlenmesi için ilgili iş ortaklarımız, danışmanlarımız ve hizmet sağlayıcılarımızla, bankalarla, mali müşavirlerimizle,
+• Müşteriye e-faturasının elektronik olarak gönderilmesi için e-fatura iş ortağıyla; fiziki sözleşme veya fatura teslimatı yapılabilmesi amacıyla kargo ve kurye firmalarıyla, özel entegratör, bağımsız denetim, gümrük, mali müşavir/muhasebe hizmeti sunan iş ortaklarımızla,
+• Vergisel yükümlülüklerin yerine getirilmesi için vergi daireleriyle, vergi denetimleri sırasında fatura ve tahsilat makbuzlarının T.C. Hazine ve Maliye Bakanlığı yetkilileriyle,
+• Bilişim altyapımızı sağlayan, işleten veya hizmet sunan iş ortaklarımızla ve hizmet sağlayıcılarımızla,
+• Risk yönetimi ve finansal raporlama süreçlerinin yürütülmesi alanında hizmet sunan iş ortaklarımızla,
+
+Bir hakkın tesisi, kullanılması veya korunması için veri işlemenin zorunlu olması, şirketimizin tabi olduğu mevzuatta açıkça öngörülmüş olması ve hukuki yükümlülüğünün yerine getirebilmesi için zorunlu olması hukuki sebeplerine dayanarak;
+
+• Hukuki yükümlülüklerin yerine getirilmesi kapsamında avukatlar, denetçiler, adli bilişim uzmanları, siber güvenlik danışmanları, vergi danışmanları ile danışmanlık ve hizmet aldığımız diğer üçüncü kişilerle ve iş ortaklarıyla,
+• Düzenleyici ve denetleyici kurumlar ile mahkeme ve icra müdürlükleri gibi yetkili kamu kurum ve kuruluşlarıyla,
+• Kişisel verilerinizi talep etmeye yetkili olan diğer kamu kurum veya kuruluşlarıyla, yurtiçi ve/veya yurtdışında bulunan iştiraklerimizle, tedarikçilerimizle, iş ortaklarımızla, anlaşmalı olduğumuz bankalarla ve ürün veya hizmet aldığımız üçüncü kişilerle paylaşılabilmektedir.
+
+TRENDYOL KİŞİSEL VERİLERİNİZİ NASIL KORUYOR?
+
+Trendyol ile paylaşılan kişisel veriler, Trendyol gözetimi ve kontrolü altındadır. Trendyol, yürürlükteki ilgili mevzuat hükümleri gereğince bilginin gizliliğinin ve bütünlüğünün korunması amacıyla gerekli organizasyonu kurmak ve teknik önlemleri almak ve uyarlamak konusunda veri sorumlusu sıfatıyla sorumluluğu üstlenmiştir. Bu konudaki yükümlülüğümüzün bilincinde olarak;
+
+•  Veri gizliliğini konu alan uluslararası ve ulusal teknik standartlara uygun surette periyodik aralıklarda sızma testleri yaptırılmaktadır.
+•   Web sitesi, mobil site ve mobil uygulama aracılığıyla Trendyol'a ilettiğiniz kişisel verileriniz SSL (Secure Sockets Layer) teknolojisi kullanılarak korunmaktadır.
+•   Kişisel veri işleme faaliyetlerine ilişkin düzenli olarak risk analizleri yapılmakta ve risklerin azaltılması için aksiyonlar alınmaktadır.
+•   Kişisel verilere yetkisiz erişimleri engellemek için erişim ve yetki kontrolleri uygulanmaktadır.
+•   Bu kapsamda veri işleme politikalarımızı her zaman güncellediğimizi bilginize sunarız.
+
+KİŞİSEL VERİLERİNİZİN KORUNMASINA YÖNELİK HAKLARINIZ
+
+Bu Aydınlatma Metni'nin "Hak ve Talepleriniz İçin İletişim" bölümünde yer alan yöntemlerle Şirketimize başvurarak,
+
+•  Kişisel verilerinizin işlenip işlenmediğini öğrenme,
+•  İşlenmişse buna ilişkin bilgi talep etme,
+•  Kişisel verilerinizin işlenme amacını ve bunların amacına uygun kullanılıp kullanılmadığını öğrenme,
+•  Yurt içinde veya yurt dışında aktarıldığı üçüncü kişileri bilme,
+•  Kişisel verilerin eksik veya yanlış işlenmiş olması halinde bunların düzeltilmesini isteme,
+•  KVKK'da öngörülen şartlar çerçevesinde kişisel verilerinizin silinmesini veya yok edilmesini isteme,
+•  Yukarıda belirtilen düzeltme, silinme ve yok edilme şeklindeki haklarınız uyarınca yapılan işlemlerin, kişisel verilerin aktarıldığı üçüncü kişilere bildirilmesini isteme,
+•  İşlenen kişisel verilerinizin münhasıran otomatik sistemler ile analiz edilmesi sureti ile aleyhinize bir sonucun ortaya çıkmasına itiraz etme,
+•  Kişisel verilerinizin ilgili mevzuata aykırı olarak işlenmesi sebebiyle zarara uğramanız hâlinde zararınızın giderilmesini talep etme haklarına sahipsiniz.
+
+HAK VE TALEPLERİNİZ İÇİN İLETİŞİM
+
+Kişisel verilerinizle ilgili sorularınızı ve taleplerinizi, Veri Sorumlusuna Başvuru Usul ve Esasları hakkında Tebliğ'de belirtilen şartlara uygun düzenlenmiş dilekçeyle ya da "DSM Grup Danışmanlık İletişim Ve Satış Ticaret A.Ş. Başvuru Formu" ile aşağıdaki yöntemlerle iletebilirsiniz. Başvuru formuna buradan ulaşabilirsiniz.
+
+
+Başvuru Yöntemi	Başvurunun Yapılacağı Adres
+Şahsen Yazılı Başvuru	Maslak Mahallesi Saat Sokak Spine Tower No:5 iç kapı:19 Sarıyer İstanbul
+Noter	Maslak Mahallesi Saat Sokak Spine Tower No:5 iç kapı:19 Sarıyer İstanbul
+Güvenli Elektronik İmza veya Mobil İmza İle İmzalanarak Kayıtlı Elektronik Posta (KEP)	dsm@hs02.kep.tr
+Şirketimize daha önce bildirilen ve sistemde kayıtlı bulunan elektronik posta adresinizden	kvkk@trendyol.com
+
+*"Şahsen Yazılı Başvuru" yoluna başvuracak İlgili Kişilerin kimliğini tevsik edici belgeleri ibraz etmesi zorunludur. Bu bağlamda Maslak Mahallesi Saat Sokak Spine Tower No:5 iç kapı:19 Sarıyer İstanbul adresine yapacağınız şahsen yazılı başvurularda başvuru formuyla birlikte kimlik fotokopisinin yalnızca ön yüzünün (kan grubu ve din hanesi gözükmeyecek şekilde) ibraz edilmesini rica ederiz
+
+**Başvuru formunun tebligat zarfına veya e-postanın konu kısmına "Kişisel Verilerin Korunması Kanunu İlgili Kişi Talebi" yazılmasını rica ederiz.
+
+Kişisel veri sahipleri olarak, haklarınıza ilişkin taleplerinizi, TRENDYOL'a iletmeniz durumunda TRENDYOL talebinizi en geç 30 (otuz) gün içinde ücretsiz olarak sonuçlandıracaktır. Ancak, başvurunuza verilecek yanıtın mevzuat uyarınca bir maliyet gerektirmesi halinde TRENDYOL tarafından Kişisel Verileri Koruma Kurulu tarafından belirlenen tarifedeki ücret talep edilebilecektir.
+
+AYDINLATMA METNİ HAKKINDA
+
+Trendyol işbu Kişisel Verilerin Korunması Hakkında Açıklama metnini yürürlükteki mevzuatta yapılabilecek değişiklikler çerçevesinde her zaman güncelleme hakkını saklı tutar.
+
+Güncellenme Tarihi : 18/10/2021

@@ -1,0 +1,53 @@
+table {
+    border-collapse: collapse;
+    width: 60em;
+    transform: translate(350px, 130px);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.table-title{
+    transform: translate(100px,100px);
+    color: black;
+    display: block;
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    text-align: center;
+}
+th, td {
+    border: 1px solid #cccccc;
+    padding: 10px;
+}
+
+.table-header{
+    text-align: center;
+}
+.table-body{
+    text-align: center;
+}
+.tr-body:hover{
+    background-color: #c6c8ca;
+}
+a:hover{
+    text-decoration: none;
+}
+.add{
+    float: right;
+    transform: translate(-85px, 90px);
+    width: 152px;
+    text-align: center;
+    background: whitesmoke;
+    border: 1px solid steelblue;
+}
+.add:hover{
+    background-color: #1D9BF0;
+    color: #005cbf;
+}
+.add{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.updateButton:active {
+    color: #5abed6;
+}
+.deleteButton:hover {
+    color: #ff0000;
+}
