@@ -41,7 +41,7 @@ $sorgu->execute();
                             <th class="product-price">Sipariş Toplamı</th>
                             <th class="product-price">Sipariş Durumu</th>
                             <th class="product-price">Sipariş Detay</th>
-                            <th class="product-price">Sipariş İptal</th>
+                            <th class="product-price">İşlem</th>
                         </tr>
                         </thead>
                         <tbody>
