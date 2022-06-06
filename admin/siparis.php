@@ -12,12 +12,11 @@ $sorgu->execute();
     <table class="table-active">
         <thead class="table-header">
         <tr>
-            <th><i class="flaticon-down-arrow"></i> S.No</th>
-            <th><i class="flaticon-clock"></i> Sipariş Zamanı</th>
-            <th><i class="flaticon-profile"></i> Kullanıcı Id</th>
-            <th><i class="flaticon-shopping-cart"></i> Ürün id</th>
-            <th><i class="flaticon-down-arrow"></i> Adet</th>
-            <th><i class="flaticon-correct"></i> Fiyat</th>
+            <th><i class="flaticon-down-arrow"></i> Sipariş No</th>
+            <th><i class="flaticon-clock"></i> Sipraiş Zamanı</th>
+            <th><i class="flaticon-profile"></i> Sipariş Toplamı</th>
+            <th><i class="flaticon-shopping-cart"></i> Sipariş Durumu</th>
+            <th><i class="flaticon-down-arrow"></i> Sipariş Detay</th>
             <th colspan="2"><i class="flaticon-edit"></i> İşlem</th>
         </tr>
         </thead>
@@ -29,17 +28,39 @@ $sorgu->execute();
                 while($veriCek = $sorgu->fetch(PDO::FETCH_ASSOC)) {?>
 
                     <tr class="tr-body">
-                        <td><?php echo $say ?></td>
+                        <td><?php echo $veriCek['siparis_id'] ?></td>
                         <td><?php echo $veriCek['siparis_zaman'] ?></td>
-                        <td><?php echo $veriCek['kullanici_id']?></td>
-                        <td><?php echo $veriCek['urun_id']?></td>
-                        <td><?php echo $veriCek['urun_adet']?></td>
-                        <td><?php echo $veriCek['urun_adet']*$veriCek['satis_fiyat'] ?></td>
+                        <td><?php echo $veriCek['siparis_toplam']?></td>
                         <td>
-                            <a href="controller/OdemeController.php?kullanici_id=<?php echo $veriCek['kullanici_id']?>">
+                            <?php if ($veriCek['siparis_durum'] == 0) { ?>
+                                <a href="controller/OdemeController.php?siparis_id=<?php echo $veriCek['siparis_id']?>">
+                                    <i class="flaticon-add"></i>
+                                    Onayla
+                                </a>
+                            <?php }else {?>
+                                <span>Onaylandı</span>
+                            <?php } ?>
+                        </td>
+                        <td>
+                            <a href="siparis-detay.php?siparis_id=<?php echo $veriCek['siparis_id']?>">
                                 <i class="flaticon-add"></i>
-                                Onayla
+                                Detay
                             </a>
+                        </td>
+                        <td>
+                            <?php if ($veriCek['siparis_durum'] == 0) { ?>
+
+                                <a href="controller/OdemeController.php?siparis_id=<?php echo $veriCek['siparis_id']?>">
+                                    <i class="flaticon-remove"></i>
+                                    Siparişi İptal Et
+                                </a>
+
+                            <?php }else if($veriCek['siparis_durum'] == 1) { ?>
+                                <span>Sipariş Teslim Edildi</span>
+                            <?php }else { ?>
+                                <span>Sipariş İptal Edildi</span>
+                            <?php } ?>
+
                         </td>
                     </tr>
 

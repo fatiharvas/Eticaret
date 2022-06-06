@@ -55,21 +55,28 @@ $sorgu->execute();
                                     <td><?php echo $siparis['siparis_toplam']?></td>
                                     <td>
                                         <?php
-                                            if ($siparis['siparis_durum']) { ?>
+                                            if ($siparis['siparis_durum'] == 1) { ?>
                                                 <span>Sipariş Teslim Edildi</span>
-                                            <?php }else { ?>
+                                            <?php }else if($siparis['siparis_durum'] == 0){ ?>
                                                 <span>Sipariş İşleme Alındı</span>
-                                            <?php } ?>
+                                            <?php }else { ?>
+                                                <span>Sipariş Firma Tarafından iptal edildi</span>
+                                            <?php }?>
                                     </td>
                                     <td>
                                         <a class="boxed-btn" href="siparis-detay.php?siparis_id=<?php echo $siparis['siparis_id']?>">Sipariş Detayı</a>
                                     </td>
 
                                     <td>
-                                        <a class="boxed-btn" href="admin/controller/OdemeController.php?siparis_id=<?php echo $siparis['siparis_id'];?>&siparissil=ok">
-                                            <i class="flaticon-remove"></i>
-                                            Sil
-                                        </a>
+                                        <?php
+                                        if ($siparis['siparis_durum']) { ?>
+                                            <span>İşlem Bulunmuyor</span>
+                                        <?php }else { ?>
+                                            <a class="boxed-btn" href="admin/controller/OdemeController.php?siparis_id=<?php echo $siparis['siparis_id'];?>&siparissil=ok">
+                                                <i class="flaticon-remove"></i>
+                                                Siparişi İptal Et
+                                            </a>
+                                        <?php } ?>
                                     </td>
                                 </tr>
 
