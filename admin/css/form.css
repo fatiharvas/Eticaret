@@ -39,7 +39,7 @@ fieldset {
     width: 100%;
 }
 
-input[type="text"],input[type="tel"],input[type="email"],input[type="password"],input[type="url"],input[type="file"],input[type="number"]{
+input[type="text"],input[type="tel"],input[type="email"],input[type="password"],input[type="url"],input[type="file"],input[type="number"],select{
     width: 100%;
     border: 1px solid #ccc;
     background: #FFF;
@@ -76,4 +76,7 @@ img{
     width: auto;
     border-radius: 3px;
     padding: 5px;
+}
+.form-control:focus {
+    -webkit-box-shadow: black; !important;
 }

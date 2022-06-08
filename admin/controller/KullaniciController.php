@@ -1,4 +1,4 @@
-<?php include "baglan.php";
+<?php include "baglan.php"; include "Fonksiyonlar.php";
 
 if (isset($_POST['kullaniciGuncelle'])) {
 
@@ -100,6 +100,7 @@ $kullaniciSorgu = $db->prepare("SELECT * FROM tblkullanicilar WHERE kullanici_ye
 $kullaniciSorgu->execute(array('kullanici_yetkisi' => 0));
 if ($_GET['kullanicisil']=="ok") {
 
+    islemKontrol();
     $sil = $db -> prepare("DELETE FROM tblkullanicilar WHERE kullanici_id=:id");
     $kontrol = $sil -> execute(array(
         'id' => $_GET['kullanici_id']

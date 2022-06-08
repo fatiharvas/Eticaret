@@ -65,7 +65,7 @@
                                                             </td>
                                                             <td><?php echo $urun['urun_ad']?></td>
                                                             <td><?php echo $urun['urun_adet']?></td>
-                                                            <td><?php echo $urun['satis_fiyat']?></td>
+                                                            <td><?php echo $urun['urun_fiyat']?></td>
                                                         </tr>
                                                     <?php } ?>
                                             </tbody>
@@ -146,7 +146,7 @@
                                 <tr>
                                     <td><?php echo $urun['urun_ad']?></td>
                                     <td><?php echo $urun['urun_adet']?></td>
-                                    <td><?php echo $urun['satis_fiyat']?></td>
+                                    <td><?php echo $urun['urun_fiyat']?></td>
                                 </tr>
 
                             <?php } ?>

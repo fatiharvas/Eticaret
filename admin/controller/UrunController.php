@@ -65,6 +65,7 @@ if (isset($_POST['urunEkle'])) {
 
 if ($_GET['urunsil'] == 'ok') {
 
+    islemKontrol();
     $delete = $db -> prepare("Delete from tblurunler where urun_id={$_GET['urun_id']}");
     $kontrol = $delete -> execute();
     if ($kontrol)

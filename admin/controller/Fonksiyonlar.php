@@ -2,6 +2,15 @@
 ob_start();
 session_start();
 
+function islemKontrol() {
+
+    if (empty($_SESSION['user_mail'])) {
+        Header("Location:../../login.php?durum=izinsiz");
+        exit();
+    }
+
+}
+
 function SEOLink($baslik)
 {
     $metin_aranan = array("ş", "Ş", "ı", "ü", "Ü", "ö", "Ö", "ç", "Ç", "ş", "Ş", "ı", "ğ", "Ğ", "İ", "ö", "Ö", "Ç", "ç", "ü", "Ü");

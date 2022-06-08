@@ -1,6 +1,6 @@
 <?php include "header.php"; include "admin/controller/baglan.php";
 ob_start();session_start();
-$sorgu = $db->prepare("select * from tblsiparis,tblkullanicilar,tbladres where tblsiparis.kullanici_id = tblkullanicilar.kullanici_id and tblsiparis.adres_id = tbladres.adres_id and tblkullanicilar.kullanici_mail='{$_SESSION['user_mail']}'");
+$sorgu = $db->prepare("select * from tblsiparis,tblkullanicilar,tbladres where tblsiparis.kullanici_id = tblkullanicilar.kullanici_id and tblsiparis.adres_id = tbladres.adres_id and tblkullanicilar.kullanici_mail='{$_SESSION['user_mail']}' order by tblsiparis.siparis_id desc");
 $sorgu->execute();
 
 ?>

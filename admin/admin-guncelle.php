@@ -10,13 +10,7 @@ $veriCek = $adminSorgu->fetch(PDO::FETCH_ASSOC);
 
 <div class="container">
     <form id="contact" action="controller/AdminController.php" method="post">
-        <h3>Admin Güncelle
-
-            <?php
-            error_reporting(0);
-            if ($_GET['durum']=="ok") {?>
-                <b style="color:green;">Parola Hatalı</b>
-            <?php } ?> </h3>
+        <h3>Admin Güncelle</h3>
 
         <fieldset>
             Admin Id<br>
@@ -36,6 +30,11 @@ $veriCek = $adminSorgu->fetch(PDO::FETCH_ASSOC);
         <fieldset>
             Admin Mail<br>
             <input  type="text" tabindex="1" required name="kullanici_mail" value="<?php echo $veriCek['kullanici_mail']?>">
+            <?php
+            error_reporting(0);
+            if ($_GET['durum']=="mukerrer") {?>
+                <b style="color:red;">Girilen mail adresi kullanımda lütfen farklı bir email adresi giriniz.</b>
+            <?php } ?>
         </fieldset>
 
         <fieldset>
@@ -45,11 +44,11 @@ $veriCek = $adminSorgu->fetch(PDO::FETCH_ASSOC);
 
         <fieldset>
             Parolanızı Girin<br>
-            <input  type="text" tabindex="1" name="kullanici_parola" required>
+            <input  type="password" tabindex="1" name="kullanici_parola">
             <?php
             error_reporting(0);
             if ($_GET['durum']=="parolahatali") {?>
-                <b style="color:green;">Parolala Hatalı</b>
+                <b style="color:red;">Parolanız Hatalı</b>
             <?php } ?>
         </fieldset>
 
@@ -64,7 +63,9 @@ $veriCek = $adminSorgu->fetch(PDO::FETCH_ASSOC);
             <?php
             error_reporting(0);
             if ($_GET['durum']=="parolauyusmuyor") {?>
-                <b style="color:green;">Parolalar Uyuşmuyor</b>
+                <b style="color:red;">Parolalar Uyuşmuyor</b>
+            <?php }else if($_GET['durum']=="kisa"){?>
+                <b style="color:red;">Parola minimum 6 karakterden oluşturulmalıdr.</b>
             <?php } ?>
         </fieldset>
 

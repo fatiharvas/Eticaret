@@ -13,13 +13,18 @@
         </fieldset>
 
         <fieldset>
-            <label for="Mail">Parola</label>
+            <label for="Mail">Mevcut Parolanız</label>
             <input id="Mail" name="parola1" type="password" tabindex="1">
         </fieldset>
 
         <fieldset>
-            <label for="Mail">Parolanızı Onaylayın</label>
+            <label for="Mail">Parola</label>
             <input id="Mail" name="parola2" type="password" tabindex="1">
+        </fieldset>
+
+        <fieldset>
+            <label for="Mail">Parolanızı Onaylayın</label>
+            <input id="Mail" name="parola3" type="password" tabindex="1">
         </fieldset>
 
 
@@ -37,11 +42,15 @@
 
                 <?php } elseif ($_GET['durum']=="kisa") {?>
 
-                <b style="color:red;">Şifre Minimum 6 karakter olmalıdır.</b>
+                    <b style="color:red;">Şifre Minimum 6 karakter olmalıdır</b>
 
                 <?php } elseif ($_GET['durum']=="sifreyanlis") {?>
 
                     <b style="color:red;">Girilen Şifre Yanlış</b>
+
+                <?php }elseif($_GET['durum'] == "uyusmuyor") {?>
+
+                    <b style="color:red;">Girilen Şifreler Uyuşmuyor</b>
 
                 <?php } ?>
             </small>

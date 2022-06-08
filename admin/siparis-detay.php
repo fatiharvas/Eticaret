@@ -53,7 +53,7 @@
                                     </td>
                                     <td><?php echo $urun['urun_ad']?></td>
                                     <td><?php echo $urun['urun_adet']?></td>
-                                    <td><?php echo $urun['satis_fiyat']?></td>
+                                    <td><?php echo $urun['urun_fiyat']?></td>
                                     <td><?php echo $urun['stok']?></td>
                                 </tr>
 

@@ -1,5 +1,7 @@
+<?php include "header.php";
 
-<?php include "header.php"; ?>
+
+?>
 
 <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
@@ -53,6 +55,9 @@
                         $sorgu = $db -> prepare("select * from tblurunler,tblurunfoto where tblurunler.urun_id = tblurunfoto.urun_id and urun_durum = 1 and kategori_id={$_GET['kategori_id']} and is_profile = 1");
                         $sorgu->execute();
 
+                       }else if($_GET['urun_ad']) {
+                            $sorgu = $db -> prepare("select * from tblurunler,tblurunfoto where tblurunler.urun_id = tblurunfoto.urun_id and urun_durum = 1  and is_profile = 1 and tblurunler.urun_ad like '%{$_GET['urun_ad']}%'");
+                            $sorgu->execute();
                        }else {
 
                         $sorgu = $db ->prepare("select * from tblurunler,tblurunfoto where tblurunler.urun_id = tblurunfoto.urun_id and urun_durum = 1 and is_profile = 1");

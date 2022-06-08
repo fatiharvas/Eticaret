@@ -3,6 +3,7 @@ $ayarSorgu = $db->prepare("SELECT * FROM tblayarlar where ayarId=:id");
 $ayarSorgu->execute(array('id' => 1));
 $ayarcek = $ayarSorgu->fetch(PDO::FETCH_ASSOC);
 
+
 if (isset($_POST['genelAyarGuncelle'])) {
 
     $ayarKaydet = $db -> prepare("UPDATE tblayarlar SET
@@ -35,7 +36,6 @@ if (isset($_POST['iletisimAyarGuncelle'])) {
         ayarTelefon=:ayarTelefon,
         ayarFaks=:ayarFaks,
         ayarMail=:ayarMail,
-        ayarParola=:ayarParola,
         ayarIl=:ayarIl,
         ayarIlce=:ayarIlce,
         ayarAdres=:ayarAdres,
@@ -57,26 +57,6 @@ if (isset($_POST['iletisimAyarGuncelle'])) {
         header("Location:../iletisim-ayar.php?durum=ok");
     }else {
         header("Location:../iletisim-ayar.php?durum=no");
-    }
-}
-
-if (isset($_POST['apiAyarGuncelle'])) {
-
-    $ayarKaydet = $db -> prepare("UPDATE tblayarlar SET
-        ayarAnalystic=:ayarAnalystic,
-        ayarMaps=:ayarMaps,
-        ayarZopim=:ayarZopim
-        WHERE ayarId = 1 ");
-
-    $update = $ayarKaydet -> execute(array(
-        'ayarAnalystic' => $_POST['ayarAnalystic'],
-        'ayarMaps' => $_POST['ayarMaps'],
-        'ayarZopim' => $_POST['ayarZopim']));
-
-    if ($update) {
-        header("Location:../api-ayar.php?durum=ok");
-    }else {
-        header("Location:../api-ayar.php?durum=no");
     }
 }
 
@@ -104,9 +84,11 @@ if (isset($_POST['sosyalMedyaAyarGuncelle'])) {
 
 if (isset($_POST['mailAyarGuncelle'])) {
 
-    if ($_POST['parola1'] != "" and $_POST['parola2'] != "") {
+    if ($_POST['parola1'] != "" or $_POST['parola2'] != "" or $_POST['parola3'] != "") {
 
         if (password_verify($_POST['parola1'], $ayarcek['ayarParola'])){
+
+            if ($_POST['parola2'] == $_POST['parola3']) {
 
                 if (trim(strlen($_POST['parola2'])) > 5) {
 
@@ -131,6 +113,9 @@ if (isset($_POST['mailAyarGuncelle'])) {
                 }else {
                     header("Location:../mail-ayar.php?durum=kisa");
                 }
+            }else {
+                header("Location:../mail-ayar.php?durum=uyusmuyor");
+            }
 
         }else {
             header("Location:../mail-ayar.php?durum=sifreyanlis");

@@ -33,7 +33,7 @@ $sorgu->execute();
                         <td><?php echo $veriCek['siparis_toplam']?></td>
                         <td>
                             <?php if ($veriCek['siparis_durum'] == 0) { ?>
-                                <a href="controller/OdemeController.php?siparis_id=<?php echo $veriCek['siparis_id']?>">
+                                <a href="kasa-sec.php?siparis_id=<?php echo $veriCek['siparis_id']?>">
                                     <i class="flaticon-add"></i>
                                     Onayla
                                 </a>
@@ -65,7 +65,7 @@ $sorgu->execute();
                     </tr>
 
 
-                <?php $say++; } ?>
+                <?php } ?>
 
 
 

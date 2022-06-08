@@ -1,9 +1,22 @@
-<?php include "index.php"; ?>
+<?php include "index.php"; include "controller/KasaController.php"?>
 
 <link rel="stylesheet" href="css/table.css">
 
 <div class="container-fluid">
-    <h1 class="table-title">Kasalar</h1>
+    <h1 class="table-title">Kasalar
+        <small>
+            <?php
+            error_reporting(0);
+            if ($_GET['durum']=="ok") {?>
+                <b style="color:green;">İşlem Başarılı...</b>
+
+            <?php } elseif ($_GET['durum']=="no") {?>
+
+                <b style="color:red;">İşlem Başarısız...</b>
+
+            <?php } ?>
+        </small>
+    </h1>
     <a href="kasa-ekle.php" class="add">Kasa Ekle</a>
     <table class="table-active">
         <thead class="table-header">
@@ -18,31 +31,38 @@
                 Kasa Adı
             </th>
             <th><i class="flaticon-presentation"></i> Kasa Miktarı</th>
-            <th><i class="flaticon-file"></i> Stok Hareket Id</th>
             <th><i class="flaticon-correct"></i> Durum</th>
-            <th colspan="2"><i class="flaticon-edit"></i> İşlem</th>
+            <th><i class="flaticon-edit"></i> İşlem</th>
         </tr>
         </thead>
 
         <tbody class="table-body">
-        <tr class="tr-body">
-            <td>1</td>
-            <td>Kasa 1</td>
-            <td>10000</td>
-            <td>1</td>
-            <td>
-                <button class="btn btn-info">Aktif</button>
-            </td>
-            <td><a href="kasa-guncelle.php">
-                    <i class="flaticon-refresh"></i>
-                    Güncelle
-                </a>
-            </td>
-            <td><a href="#">
-                    <i class="flaticon-remove"></i>
-                    Sil
-                </a></td>
-        </tr>
+
+        <?php
+
+            while($kasa = $sorgu -> fetch(PDO::FETCH_ASSOC)) {?>
+
+                <tr class="tr-body">
+                    <td><?php echo $kasa['kasa_id']?></td>
+                    <td><?php echo $kasa['kasa_adi']?></td>
+                    <td><?php echo $kasa['kasa_miktari']?></td>
+                    <td>
+                        <?php if ($kasa['kasa_durum']) {?>
+                            <button class="btn btn-info">Aktif</button>
+                        <?php }else { ?>
+                            <button class="btn btn-danger">Pasif</button>
+                        <?php } ?>
+                    </td>
+                    <td>
+                        <a href="kasa-guncelle.php?kasa_id=<?php echo $kasa['kasa_id'] ?>">
+                            <i class="flaticon-refresh"></i>
+                            Güncelle
+                        </a>
+                    </td>
+                </tr>
+
+
+            <?php } ?>
 
         </tbody>
     </table>

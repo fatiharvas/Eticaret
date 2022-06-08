@@ -1,4 +1,4 @@
-<?php include "baglan.php";
+<?php include "baglan.php"; include "Fonksiyonlar.php";
 
 $sorgu = $db -> prepare("Select * from tblurunfoto");
 $sorgu ->execute();
@@ -24,6 +24,7 @@ if (isset($_POST['siraGuncelle'])) {
 
 if ($_GET['resimSil'] == 'ok') {
 
+    islemKontrol();
     $resim_yol = $_GET['urun_resim_yol'];
     $delete = $db -> prepare("DELETE FROM tblurunfoto WHERE resim_yol=:resim_yol");
     $kontrol = $delete -> execute(array('resim_yol' => $resim_yol));

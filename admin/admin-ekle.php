@@ -37,7 +37,11 @@
             <?php
             error_reporting(0);
             if ($_GET['durum']=="parolauyusmuyor") {?>
-                <b style="color:green;">Parolalar Uyuşmuyor</b>
+                <b style="color:red;">Parolalar Uyuşmuyor</b>
+            <?php }else if($_GET['durum'] == "kisa"){?>
+                <b style="color:red;">Parolanız minimum 6 karakter uzunluğunda olmalıdır</b>
+            <?php }else if($_GET['durum'] == "mukerrer") {?>
+                <b style="color:red;">Girilen mail adresi zaten kullanımda lütfen farklı bir email adresi giriniz.</b>
             <?php } ?>
 
         </fieldset>

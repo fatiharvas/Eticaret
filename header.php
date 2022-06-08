@@ -40,9 +40,9 @@
                     </a>
                 </div>
                 <div class="col-xl-6 col-lg-5">
-                    <form class="search-container">
-                        <input type="text" id="search-bar" placeholder="Aradığınız ürün, kategori veya markayı yazınız">
-                        <button><i class="flaticon-search"></i></button>
+                    <form class="search-container" action="kategoriler.php" method="get">
+                        <input type="text" name="urun_ad" id="search-bar" placeholder="Aradığınız ürün, kategori veya markayı yazınız">
+                        <button type="submit"><i class="flaticon-search"></i></button>
                     </form>
                 </div>
                 <div class="col-xl-4 col-lg-5">

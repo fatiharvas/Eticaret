@@ -1,4 +1,4 @@
-<?php include "baglan.php";
+<?php include "baglan.php"; include "Fonksiyonlar.php";
 
 $sliderSorgu = $db ->prepare("SELECT * FROM tblslider");
 $sliderSorgu -> execute();
@@ -51,6 +51,7 @@ if (isset($_POST['sliderGuncelle'])) {
 
 if ($_GET['slidersil'] == 'ok') {
 
+    islemKontrol();
     $delete = $db -> prepare("DELETE FROM tblslider WHERE sliderId=:id");
     $kontrol = $delete -> execute(array('id' => $_GET['sliderId']));
 

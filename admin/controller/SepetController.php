@@ -21,12 +21,12 @@ if (isset($_POST['sepetEkle'])) {
     if ($sorgu-> rowCount() > 0) {
 
         $adet_sayisi = $sepetCek['urun_adet']+=$_POST['urun_adet'];
-        $adetGuncelle = $db->prepare("update tblsepet set urun_adet = {$adet_sayisi}");
+        $adetGuncelle = $db->prepare("update tblsepet set urun_adet = {$adet_sayisi} where urun_id={$sepetCek['urun_id']}");
         $update = $adetGuncelle->execute();
 
         $toplam_fiyat = $adet_sayisi * $sepetCek['satis_fiyat'];
 
-        $fiyat = $db->prepare("update tblsepet set toplam_fiyat = {$toplam_fiyat}");
+        $fiyat = $db->prepare("update tblsepet set toplam_fiyat = {$toplam_fiyat} where urun_id={$sepetCek['urun_id']}");
         $fiyat->execute();
 
         if ($update)

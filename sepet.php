@@ -1,6 +1,6 @@
 <?php include "header.php"; include "admin/controller/baglan.php";
 
-$sorgu = $db->prepare("select * from tblsepet,tblurunler,tblkullanicilar,tblurunfoto where tblurunler.urun_id = tblurunfoto.urun_id and tblurunler.urun_id = tblsepet.urun_id and tblkullanicilar.kullanici_id = tblsepet.kullanici_id and tblkullanicilar.kullanici_mail='{$_SESSION['user_mail']}' group by tblurunfoto.urun_id order by sepet_id desc ");
+$sorgu = $db->prepare("select * from tblsepet,tblurunler,tblkullanicilar,tblurunfoto,tblstok where tblurunler.urun_id = tblstok.urun_id and tblurunler.urun_id = tblurunfoto.urun_id and tblurunler.urun_id = tblsepet.urun_id and tblkullanicilar.kullanici_id = tblsepet.kullanici_id and tblkullanicilar.kullanici_mail='{$_SESSION['user_mail']}' group by tblurunfoto.urun_id order by sepet_id desc ");
 $sorgu->execute();
 
 ?>
@@ -51,6 +51,12 @@ $sorgu->execute();
                         while ($sepet = $sorgu->fetch(PDO::FETCH_ASSOC)) {
 
                             $toplamFiyat += $sepet['satis_fiyat']*$sepet['urun_adet'];
+
+                            if ($sepet['stok'] == 0) {
+                                $sil = $db->prepare("delete from tblsepet where urun_id={$sepet['urun_id']}");
+                                $sil->execute();
+                            }
+
                             ?>
 
                             <tr>
@@ -99,11 +105,19 @@ $sorgu->execute();
                             <b style="color:red;">İşlem Başarısız...</b>
 
                         <?php } ?>
+                        <?php if ($_GET['durum'] == "yok") {?>
+                            <span style="color: red">Stoğu bulunmayan ürünler sepetten kaldırıldı. Tekrar Deneyin</span>
+                        <?php } ?>
                     </h6>
                     <ul>
                         <li>Toplam fiyat <span><?php echo $toplamFiyat."₺"?></span></li>
                     </ul>
-                    <a href="teslimat.php" class="primary-btn">Ödeme Sayfasına Geçin</a>
+                    <?php
+                        if ($sorgu->rowCount() == 0) { ?>
+                            <a href="#" class="primary-btn">Sepet Boş</a>
+                        <?php }else { ?>
+                            <a href="teslimat.php" class="primary-btn">Ödeme Sayfasına Geçin</a>
+                        <?php } ?>
                 </div>
             </div>
         </div>

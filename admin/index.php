@@ -68,12 +68,7 @@ if ($sayi==0) {
                                 <span>İletişim Ayarları</span>
                             </a>
                         </li>
-                        <li>
-                            <a href="api-ayar.php" class="settings-sidebar">
-                                <i class="flaticon-export"></i>
-                                <span>Api Ayarları</span>
-                            </a>
-                        </li>
+
                         <li>
                             <a href="sosyal-medya-ayar.php" class="settings-sidebar">
                                 <i class="flaticon-video-camera"></i>
@@ -100,12 +95,7 @@ if ($sayi==0) {
                         <span>Kullanıcılar</span>
                     </a>
                 </li>
-                <li class="mt">
-                    <a class="active" href="urunler.php">
-                        <i class="flaticon-bag"></i>
-                        <span>Ürünler</span>
-                    </a>
-                </li>
+
                 <li class="mt">
                     <a class="active" href="menu.php">
                         <i class="flaticon-menu"></i>
@@ -118,6 +108,14 @@ if ($sayi==0) {
                         <span>Kategoriler</span>
                     </a>
                 </li>
+
+                <li class="mt">
+                    <a class="active" href="urunler.php">
+                        <i class="flaticon-bag"></i>
+                        <span>Ürünler</span>
+                    </a>
+                </li>
+
                 <li class="mt">
                     <a class="active" href="slider.php">
                         <i class="flaticon-paint"></i>
