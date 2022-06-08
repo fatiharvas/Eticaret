@@ -1,80 +1,67 @@
-
-body {
-    /* Typography Declaration */
-    color: #222222;
-
-
+.product:hover .desc h3 a, .product:focus .desc h3 a {
+    color: #d1c286;
 }
 
-.masthead-heading,
-.masthead-intro,
-.content-footer {
-    text-align: center;
-}
-
-.masthead {
-    padding: 11em 0;
-    background-image: url('https://images.unsplash.com/photo-1512716679859-da19b4af9c38?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top center;
-    border-top: solid 2em #B69760;
-}
-
-.masthead-intro {
-    /* Text Declarations */
-    margin-bottom: 0.1em;
-
-    font-size: 4em;
-    color: #FFFFFF;
+.product .desc .price {
+    letter-spacing: 2px;
     text-transform: uppercase;
-    letter-spacing: .08em;
 }
 
-
-.masthead-heading {
-    /*Layout Declarations */
-    margin-top: -0.2em;
-    /* Typography Declarations */
-    font-family: "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: light;
-    font-size: 1.5em;
-    letter-spacing: -0.01em;
+.product .desc h3 a {
+    color: #000;
+}
+.product .desc .price {
+    letter-spacing: 2px;
     text-transform: uppercase;
-    color: #FFFFFF;
 }
 
-/* Text Declarations for Sections */
-
-.introduction-section > p,
-.location-section > p,
-.content-footer > p,
-.questions-section > p {
-    font-weight: 300;
-    letter-spacing: 0.05em;
+.about-content {
+    margin-bottom: 7em;
+}
+.about-content img {
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    padding: 10px;
+}
+.about-content .desc {
+    margin-bottom: 3em;
 }
 
-/* Section Styling */
-
-.introduction-section,
-.location-section,
-.questions-section {
-    max-width: 38em;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2em;
-}
-
-.questions-section > h2 {
-    /*Typography Declarations */
-    font-family: "Gentium Book Basic", Georgia, serif;
-    font-size: 1.1 em;
+.product .desc h3 {
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
     font-weight: bold;
-    color: #222222;
+    line-height: 24px;
+}
+.feature-center .desc {
+    padding-left: 180px;
+}
+.about-content {
+    margin-bottom: 7em;
+}
+.about-content img {
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    padding: 10px;
+}
+.about-content .desc {
+    margin-bottom: 3em;
 }
 
-/* Footer Styling */
+#fh5co-about {
+    padding: 4em 0;
+    clear: both;
+}
+.about-content .desc {
+    margin-bottom: 3em;
+}
+.feature-center .desc {
+    padding-left: 180px;
+}
 
-.fa-stack fa-lg {
-    display: inline-block;
+@media screen and (max-width: 768px) {
+
+    #fh5co-about{
+        padding: 3em 0;
+    }
 }

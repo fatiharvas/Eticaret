@@ -1,6 +1,6 @@
 <?php include "index.php"; include "controller/baglan.php";
 
-$sorgu = $db->prepare("select * from tblsiparis");
+$sorgu = $db->prepare("select * from tblsiparis order by siparis_durum = 0 desc ");
 $sorgu->execute();
 
 ?>
@@ -32,13 +32,15 @@ $sorgu->execute();
                         <td><?php echo $veriCek['siparis_zaman'] ?></td>
                         <td><?php echo $veriCek['siparis_toplam']?></td>
                         <td>
-                            <?php if ($veriCek['siparis_durum'] == 0) { ?>
+                            <?php if ($veriCek['siparis_durum'] == null) { ?>
+                                <span>Sipariş İptal Edildi.</span>
+                            <?php }else if ($veriCek['siparis_durum']){?>
+                                <span>Onaylandı</span>
+                            <?php }else { ?>
                                 <a href="kasa-sec.php?siparis_id=<?php echo $veriCek['siparis_id']?>">
                                     <i class="flaticon-add"></i>
                                     Onayla
                                 </a>
-                            <?php }else {?>
-                                <span>Onaylandı</span>
                             <?php } ?>
                         </td>
                         <td>
@@ -48,17 +50,16 @@ $sorgu->execute();
                             </a>
                         </td>
                         <td>
-                            <?php if ($veriCek['siparis_durum'] == 0) { ?>
+                            <?php if ($veriCek['siparis_durum'] == null) { ?>
 
-                                <a href="controller/OdemeController.php?siparis_id=<?php echo $veriCek['siparis_id']?>">
+                                <span>Sipariş İptal Edildi</span>
+                            <?php }else if($veriCek['siparis_durum']) { ?>
+                                <span>Sipariş Teslim Edildi</span>
+                            <?php }else { ?>
+                                <a href="controller/OdemeController.php?siparis_id=<?php echo $veriCek['siparis_id']?>&siparisiptal=ok">
                                     <i class="flaticon-remove"></i>
                                     Siparişi İptal Et
                                 </a>
-
-                            <?php }else if($veriCek['siparis_durum'] == 1) { ?>
-                                <span>Sipariş Teslim Edildi</span>
-                            <?php }else { ?>
-                                <span>Sipariş İptal Edildi</span>
                             <?php } ?>
 
                         </td>

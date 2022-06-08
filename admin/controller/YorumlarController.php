@@ -16,6 +16,7 @@ if ($_GET['yorumSil'] == 'ok') {
 if ($_GET['yorumsil'] == 'ok') {
 
     islemKontrol();
+
     $delete = $db->prepare("delete from tblyorumlar where yorum_id={$_GET['yorum_id']} ");
     $delete->execute();
 

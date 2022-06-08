@@ -55,12 +55,12 @@ $sorgu->execute();
                                     <td><?php echo $siparis['siparis_toplam']?></td>
                                     <td>
                                         <?php
-                                            if ($siparis['siparis_durum'] == 1) { ?>
+                                            if ($siparis['siparis_durum'] == null) { ?>
+                                                <span>Sipariş İptal Edildi</span>
+                                            <?php }else if($siparis['siparis_durum']){ ?>
                                                 <span>Sipariş Teslim Edildi</span>
-                                            <?php }else if($siparis['siparis_durum'] == 0){ ?>
-                                                <span>Sipariş İşleme Alındı</span>
                                             <?php }else { ?>
-                                                <span>Sipariş Firma Tarafından iptal edildi</span>
+                                                <span>Sipariş İşleme Alındı</span>
                                             <?php }?>
                                     </td>
                                     <td>
@@ -71,12 +71,14 @@ $sorgu->execute();
                                         <?php
                                         if ($siparis['siparis_durum']) { ?>
                                             <span>İşlem Bulunmuyor</span>
+                                        <?php }else if($siparis['siparis_durum'] == null){ ?>
+                                            <span>Sipariş İptal Edildi</span>
                                         <?php }else { ?>
                                             <a class="boxed-btn" href="admin/controller/OdemeController.php?siparis_id=<?php echo $siparis['siparis_id'];?>&siparissil=ok">
                                                 <i class="flaticon-remove"></i>
                                                 Siparişi İptal Et
                                             </a>
-                                        <?php } ?>
+                                        <?php }?>
                                     </td>
                                 </tr>
 
@@ -90,7 +92,7 @@ $sorgu->execute();
         </div>
     </div>
 </div>
-
+<?php include "footer.php"?>
 
 </body>
 </html>

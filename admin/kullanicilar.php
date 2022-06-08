@@ -1,4 +1,4 @@
-<?php include "index.php"; include "controller/KullaniciController.php"; include "controller/Fonksiyonlar.php"?>
+<?php include "index.php"; include "controller/KullaniciController.php";?>
 <link rel="stylesheet" href="css/table.css">
 <div class="container-fluid">
     <h1 class="table-title">Kullanıcılar</h1>

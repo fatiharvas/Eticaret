@@ -1,4 +1,4 @@
-<?php include "index.php"; include "controller/AdminController.php"; include "controller/Fonksiyonlar.php";
+<?php include "index.php"; include "controller/AdminController.php";
 $adminSorgu = $db -> prepare("SELECT * FROM tblkullanicilar WHERE kullanici_yetkisi=:kullanici_yetkisi");
 $adminSorgu->execute(array('kullanici_yetkisi' => 1));
 ?>
