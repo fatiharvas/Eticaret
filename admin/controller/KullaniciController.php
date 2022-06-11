@@ -1,5 +1,34 @@
 <?php include "baglan.php"; include "Fonksiyonlar.php";
 
+if (isset($_POST['kullaniciSil'])) {
+
+    if ($_POST['parola1'] == $_POST['parola2']) {
+
+        $sorgu = $db->prepare("select * from tblkullanicilar where kullanici_id={$_POST['kullanici_id']}");
+        $sorgu->execute();
+        $veriCek = $sorgu->fetch(PDO::FETCH_ASSOC);
+
+        if (password_verify($_POST['parola1'], $veriCek['kullanici_parola'])) {
+
+            $kullaniciSil = $db->prepare("delete from tblkullanicilar where  kullanici_id={$_POST['kullanici_id']}");
+            $delete = $kullaniciSil->execute();
+
+            if ($delete){
+                session_start(); session_destroy();
+                Header("Location:../../login.php");
+            }
+
+        }else {
+            Header("Location:../../hesap-sil.php?kullanici_id={$_POST['kullanici_id']}&durum=hatali");
+        }
+
+
+    }else {
+        Header("Location:../../hesap-sil.php?kullanici_id={$_POST['kullanici_id']}&durum=uyusmuyor");
+    }
+
+}
+
 if (isset($_POST['kullaniciGuncelle'])) {
 
   if ($_POST['parola2'] == "" and $_POST['parola3'] == "" and $_POST['parola1'] == "") {

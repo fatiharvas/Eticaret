@@ -48,6 +48,11 @@
         </fieldset>
 
         <fieldset>
+            <label for="konum">Konum</label>
+            <input id="konum" type="text" name="ayarMaps" tabindex="1" value="<?php echo $ayarcek['ayarMaps']?>">
+        </fieldset>
+
+        <fieldset>
             <button name="iletisimAyarGuncelle" type="submit">Güncelle</button>
             <small>
                 <?php

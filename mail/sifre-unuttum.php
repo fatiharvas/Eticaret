@@ -8,13 +8,13 @@
             <?php error_reporting(0);
                 if ($_GET['durum'] == 'kullaniciyok') {?>
                     <div class="alert alert-danger">
-                        <strong>Hata!</strong> Böyle Bir Kullanıcı Bulunamadı.
+                        <strong>Hata!</strong> <p>Böyle Bir Kullanıcı Bulunamadı.</p>
                     </div>
             <?php error_reporting(0);
                 }else if ($_GET['durum'] == 'basarisiz') { ?>
 
                     <div class="alert alert-danger">
-                        <strong>Hata!</strong> Mail Gönderme İşlemi Başarısız.
+                        <strong>Hata!</strong> <p>Mail Gönderme İşlemi Başarısız.</p>
                     </div>
                 <?php } ?>
             <input type="email" placeholder="E-Posta adresinin giriniz" name="email" required />

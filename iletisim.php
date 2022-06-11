@@ -26,7 +26,14 @@
             <div class="col-lg-8 mb-5 mb-lg-0">
                 <div class="form-title">
                     <h2>Bizimle İletişime Geçin</h2>
-                    <p>Herhangi bir sorunuzu bu form üzerinden bizlere ulaştırabilirsiniz!</p>
+                    <?php
+                        if ($_GET['durum'] == 'ok') {?>
+                            <p style="color: green">Mail Gönderme Başarılı.</p>
+                        <?php }else if ($_GET['durum'] == "no"){?>
+                            <p style="color:red;">Mail Gönderme Başarısız.</p>
+                        <?php }else { ?>
+                            <p>Herhangi bir sorunuzu bu form üzerinden bizlere ulaştırabilirsiniz!</p>
+                        <?php } ?>
                 </div>
                 <div id="form_status"></div>
                 <div class="contact-form">
@@ -35,8 +42,10 @@
                         if ($_SESSION['user_mail']) { ?>
 
                             <form action="admin/controller/MailController.php" method="post">
+                                <p><input style="width: 100%;" type="text" placeholder="Konu" name="konu"></p>
                                 <p><textarea name="message" id="message" cols="30" rows="10" placeholder="Mesaj"></textarea></p>
                                 <p><input name="mailGonder" type="submit" value="Gönder"></p>
+                                <input type="hidden" name="kullanici_mail" value="<?php echo $_SESSION['user_mail'] ?>">
                             </form>
 
                         <?php }else {?>

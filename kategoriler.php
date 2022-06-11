@@ -1,7 +1,4 @@
-<?php include "header.php";
-
-
-?>
+<?php include "header.php"; ?>
 
 <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
@@ -64,6 +61,13 @@
                         $sorgu -> execute();
 
                         }
+
+                        if ($sorgu->rowCount() == 0) {?>
+                            <div>
+                                <p>Aradığınız Ürün Bulunamadı!</p>
+                            </div>
+
+                        <?php }
 
                         while ($urunCek = $sorgu ->fetch(PDO::FETCH_ASSOC)) { ?>
 

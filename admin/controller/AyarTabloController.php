@@ -40,7 +40,8 @@ if (isset($_POST['iletisimAyarGuncelle'])) {
         ayarIlce=:ayarIlce,
         ayarAdres=:ayarAdres,
         ayarCagriMerkezi=:ayarCagriMerkezi,
-        ayarMesai=:ayarMesai
+        ayarMesai=:ayarMesai,
+        ayarMaps=:ayarMaps
         WHERE ayarId = 1 ");
 
     $update = $ayarKaydet -> execute(array(
@@ -51,7 +52,8 @@ if (isset($_POST['iletisimAyarGuncelle'])) {
         'ayarIlce' => $_POST['ayarIlce'],
         'ayarAdres' => $_POST['ayarAdres'],
         'ayarCagriMerkezi' => $_POST['ayarCagriMerkezi'],
-        'ayarMesai' => $_POST['ayarMesai']));
+        'ayarMesai' => $_POST['ayarMesai'],
+        'ayarMaps' => $_POST['ayarMaps']));
 
     if ($update) {
         header("Location:../iletisim-ayar.php?durum=ok");

@@ -171,13 +171,13 @@ if (isset($_POST['odeme'])) {
 
         $siparis = $db->prepare("insert into tblsiparis set 
             
-        kullanici_id=:kullanici_id,
-        adres_id=:adres_id,
-        siparis_toplam=:siparis_toplam,
-        siparis_durum=:siparis_durum,
-        kart_numarasi=:kart_numarasi,
-        son_kullanma_tarihi=:son_kullanma_tarihi,
-        cvv=:cvv
+            kullanici_id=:kullanici_id,
+            adres_id=:adres_id,
+            siparis_toplam=:siparis_toplam,
+            siparis_durum=:siparis_durum,
+            kart_numarasi=:kart_numarasi,
+            son_kullanma_tarihi=:son_kullanma_tarihi,
+            cvv=:cvv
     
         ");
 
@@ -197,17 +197,18 @@ if (isset($_POST['odeme'])) {
 
             $siparis_id = $db->lastInsertId();
 
-            $urun = $db->prepare("select * from tblsepet, tblurunler where kullanici_id = {$_POST['kullanici_id']} and tblsepet.urun_id = tblurunler.urun_id");
+            $urun = $db->prepare("select * from tblsepet, tblurunler,tblstok where tblurunler.urun_id = tblstok.urun_id and kullanici_id = {$_POST['kullanici_id']} and tblsepet.urun_id = tblurunler.urun_id");
             $urun->execute();
 
             while ($urunler = $urun->fetch(PDO::FETCH_ASSOC)) {
 
                 $siparis = $db->prepare("insert into tblsiparisdetay set
 
-                siparis_id=:siparis_id,
-                urun_id=:urun_id,
-                urun_fiyat=:urun_fiyat,
-                urun_adet=:urun_adet
+                    siparis_id=:siparis_id,
+                    urun_id=:urun_id,
+                    urun_fiyat=:urun_fiyat,
+                    urun_adet=:urun_adet, 
+                    urun_maliyet=:urun_maliyet        
                 ");
 
                 $siparisEkle = $siparis->execute(array(
@@ -215,8 +216,8 @@ if (isset($_POST['odeme'])) {
                     'siparis_id' => $siparis_id,
                     'urun_id' => $urunler['urun_id'],
                     'urun_fiyat' => $urunler['satis_fiyat'],
-                    'urun_adet' => $urunler['urun_adet']
-
+                    'urun_adet' => $urunler['urun_adet'],
+                    'urun_maliyet' => $urunler['alis_fiyat']
                 ));
 
                 $stok = $db->prepare("select * from tblstok where urun_id = {$urunler['urun_id']}");

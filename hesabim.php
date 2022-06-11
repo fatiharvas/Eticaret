@@ -101,7 +101,9 @@ $veriCek = $sorgu->fetch(PDO::FETCH_ASSOC);
                         </div>
                         <input type="hidden" name="kullanici_id" value="<?php echo $veriCek['kullanici_id'] ?>">
                         <input type="submit" name="kullaniciGuncelle" value="Güncelle" class="btn px-5 btn-primary">
-
+                    </form>
+                    <form action="hesap-sil.php?kullanici_id=<?php echo $veriCek['kullanici_id']?>" method="post">
+                        <input style="float: right; background-color: red; margin-top: -55px" type="submit" value="Hesabı Sil" class="btn px-5 btn-primary">
                     </form>
                 </div>
             </div>

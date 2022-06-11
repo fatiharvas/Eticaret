@@ -107,6 +107,32 @@
             </p>
         </div>
     </div>
+
+    <div class="accordion-item">
+        <header class="item-header">
+            <h4 class="item-question">
+                Kâr-Zarar Durumu
+            </h4>
+            <div class="item-icon">
+                <i class='bx bx-chevron-down'></i>
+            </div>
+        </header>
+        <div class="item-content">
+            <p class="item-answer">
+            <p><b>Maliyet Fiyatı : </b><?php echo $urun['urun_adet'] * $urun['urun_maliyet']."₺"?></p>
+            <p><b>Satış Fiyatı : </b><?php echo $urun['urun_adet'] * $urun['urun_fiyat']."₺"?></p>
+            <?php
+            if ($urun['urun_fiyat'] > $urun['urun_maliyet']) {?>
+                <p><b>Kâr : </b><?php echo $urun['urun_adet'] * $urun['urun_fiyat'] - $urun['urun_adet'] * $urun['urun_maliyet']."₺"?></p>
+                <?php $kar = ($urun['urun_fiyat'] - $urun['urun_maliyet']) * (100 / $urun['urun_maliyet']); ?>
+                <p><b>Kâr Oranı : </b><?php echo "Kar Yüzdesi: %".number_format($kar,2);?></p>
+            <?php }else {?>
+                <p><b>Zarar : </b><?php echo $urun['urun_adet'] * $urun['urun_maliyet'] - $urun['urun_adet'] * $urun['urun_fiyat']."₺"?></p>
+                <?php $zarar = ($urun['urun_maliyet'] - $urun['urun_fiyat']) * (100 / $urun['urun_maliyet']); ?>
+                <p><b>Zarar Oranı: </b><?php echo "Zarar Yüzdesi: %".number_format($zarar,2); ?></p>
+            <?php }?>
+        </div>
+    </div>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
