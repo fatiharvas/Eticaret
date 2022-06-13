@@ -21,12 +21,6 @@ $sliderCek = $sliderSorgu ->fetch(PDO::FETCH_ASSOC);
         </fieldset>
 
         <fieldset>
-            <label for="ResimEkle">Resim Ekle</label>
-            <input id="ResimEkle" name="sliderResimYol"  type="file" accept="image/png, image/gif, image/jpeg"  tabindex="1">
-        </fieldset>
-
-
-        <fieldset>
             <label for="SliderAdı">Slider Adı</label>
             <input id="SliderAdı" name="sliderAd" value="<?php echo $sliderCek['sliderAd']?>" required type="text" tabindex="1">
         </fieldset>

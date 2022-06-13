@@ -39,7 +39,7 @@ if (isset($_POST['kasaEkle'])) {
 
         'kasa_adi' => $_POST['kasa_adi'],
         'kasa_miktari' => 0,
-        'kasa_adi' => $_POST['kasa_adi'],
+        'kasa_durum' => $_POST['kasa_durum']
 
     ));
 

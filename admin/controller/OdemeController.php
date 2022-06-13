@@ -1,52 +1,4 @@
-<?php include "baglan.php"; ob_start(); session_start(); include "Fonksiyonlar.php";
-
-if (isset($_POST['siparis_iptal'])) {
-    islemKontrol();
-}
-
-if ($_GET['siparisiptal'] == "ok") {
-
-    $siparisDurum = $db->prepare("update tblsiparis set siparis_durum=null where siparis_id={$_GET['siparis_id']}");
-    $siparisDurum->execute();
-
-    $stokKontrol = $db->prepare("select * from tblsiparisdetay,tblurunler,tblstok where tblsiparisdetay.urun_id = tblurunler.urun_id and tblurunler.urun_id = tblstok.urun_id and tblsiparisdetay.siparis_id = {$_GET['siparis_id']}");
-    $stokKontrol->execute();
-
-    while ($stokGuncelle = $stokKontrol->fetch(PDO::FETCH_ASSOC)) {
-        $stok = $stokGuncelle['stok'] += $stokGuncelle['urun_adet'];
-        $guncelle = $db->prepare("update tblstok set stok = {$stok} where urun_id = {$stokGuncelle['urun_id']}");
-        $guncelle->execute();
-    }
-
-    if ($stokKontrol)
-        Header("Location:../siparis.php");
-    else
-        Header("Location:../siparis.php?durum=no");
-
-
-}
-
-if ($_GET['siparissil'] == "ok") {
-
-    $siparisDurum = $db->prepare("update tblsiparis set siparis_durum=null where siparis_id={$_GET['siparis_id']}");
-    $siparisDurum->execute();
-
-    $stokKontrol = $db->prepare("select * from tblsiparisdetay,tblurunler,tblstok where tblsiparisdetay.urun_id = tblurunler.urun_id and tblurunler.urun_id = tblstok.urun_id and tblsiparisdetay.siparis_id = {$_GET['siparis_id']}");
-    $stokKontrol->execute();
-
-    while ($stokGuncelle = $stokKontrol->fetch(PDO::FETCH_ASSOC)) {
-        $stok = $stokGuncelle['stok'] += $stokGuncelle['urun_adet'];
-        $guncelle = $db->prepare("update tblstok set stok = {$stok} where urun_id = {$stokGuncelle['urun_id']}");
-        $guncelle->execute();
-    }
-
-    if ($stokKontrol)
-        Header("Location:../../siparis.php");
-    else
-        Header("Location:../../siparis.php?durum=no");
-
-
-}
+<?php include "baglan.php"; include "Fonksiyonlar.php";
 
 if (isset($_POST['onayla'])) {
 
@@ -242,9 +194,51 @@ if (isset($_POST['odeme'])) {
 
         }
     }
+}
+
+if ($_GET['siparisiptal'] == "ok") {
+
+    $siparisDurum = $db->prepare("update tblsiparis set siparis_durum=null where siparis_id={$_GET['siparis_id']}");
+    $siparisDurum->execute();
+
+    $stokKontrol = $db->prepare("select * from tblsiparisdetay,tblurunler,tblstok where tblsiparisdetay.urun_id = tblurunler.urun_id and tblurunler.urun_id = tblstok.urun_id and tblsiparisdetay.siparis_id = {$_GET['siparis_id']}");
+    $stokKontrol->execute();
+
+    while ($stokGuncelle = $stokKontrol->fetch(PDO::FETCH_ASSOC)) {
+        $stok = $stokGuncelle['stok'] += $stokGuncelle['urun_adet'];
+        $guncelle = $db->prepare("update tblstok set stok = {$stok} where urun_id = {$stokGuncelle['urun_id']}");
+        $guncelle->execute();
+    }
+
+    if ($stokKontrol)
+        Header("Location:../siparis.php");
+    else
+        Header("Location:../siparis.php?durum=no");
 
 
 }
+
+if ($_GET['siparissil'] == "ok") {
+
+    $siparisDurum = $db->prepare("update tblsiparis set siparis_durum=null where siparis_id={$_GET['siparis_id']}");
+    $siparisDurum->execute();
+
+    $stokKontrol = $db->prepare("select * from tblsiparisdetay,tblurunler,tblstok where tblsiparisdetay.urun_id = tblurunler.urun_id and tblurunler.urun_id = tblstok.urun_id and tblsiparisdetay.siparis_id = {$_GET['siparis_id']}");
+    $stokKontrol->execute();
+
+    while ($stokGuncelle = $stokKontrol->fetch(PDO::FETCH_ASSOC)) {
+        $stok = $stokGuncelle['stok'] += $stokGuncelle['urun_adet'];
+        $guncelle = $db->prepare("update tblstok set stok = {$stok} where urun_id = {$stokGuncelle['urun_id']}");
+        $guncelle->execute();
+    }
+
+    if ($stokKontrol)
+        Header("Location:../../siparis.php");
+    else
+        Header("Location:../../siparis.php?durum=no");
+
+}
+
 function stokKontrol($db,$id) {
 
     $sepet = $db->prepare("select * from tblsepet,tblurunler,tblstok where tblsepet.urun_id = tblurunler.urun_id and tblurunler.urun_id = tblstok.urun_id and tblsepet.kullanici_id={$id}");

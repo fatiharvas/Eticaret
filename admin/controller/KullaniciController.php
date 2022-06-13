@@ -1,5 +1,8 @@
 <?php include "baglan.php"; include "Fonksiyonlar.php";
 
+$kullaniciSorgu = $db->prepare("SELECT * FROM tblkullanicilar WHERE kullanici_yetkisi=:kullanici_yetkisi");
+$kullaniciSorgu->execute(array('kullanici_yetkisi' => 0));
+
 if (isset($_POST['kullaniciSil'])) {
 
     if ($_POST['parola1'] == $_POST['parola2']) {
@@ -125,24 +128,17 @@ if (isset($_POST['kullaniciGuncelle'])) {
   }
 
 }
-$kullaniciSorgu = $db->prepare("SELECT * FROM tblkullanicilar WHERE kullanici_yetkisi=:kullanici_yetkisi");
-$kullaniciSorgu->execute(array('kullanici_yetkisi' => 0));
-if ($_GET['kullanicisil']=="ok") {
 
-    islemKontrol();
-    $sil = $db -> prepare("DELETE FROM tblkullanicilar WHERE kullanici_id=:id");
-    $kontrol = $sil -> execute(array(
-        'id' => $_GET['kullanici_id']
-    ));
+if ($_GET['sil']=="ok") {
+
+
+    $sil = $db -> prepare("DELETE FROM tblkullanicilar WHERE kullanici_id={$_GET['kullanici_id']}");
+    $kontrol = $sil -> execute();
 
     if ($kontrol) {
-
-        header("Location:../kullanicilar.php?sil=ok");
-
+        Header("Location:../kullanicilar.php?durum=ok");
     }else {
-
-        header("Location:../kullanicilar.php?sil=no");
-
+        Header("Location:../kullanicilar.php?durum=no");
     }
 
 }

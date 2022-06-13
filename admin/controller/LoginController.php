@@ -7,7 +7,7 @@ if (isset($_POST['kayitOl'])) {
 
     if ($_POST['kullanici_parola'] == $_POST['kullanici_parola2']) {
 
-        if ($_POST['kullanici_parola'] >= 6) {
+        if (trim(strlen($_POST['kullanici_parola'])) > 5) {
 
             $sorgu = $db -> prepare("Select * from tblkullanicilar where kullanici_mail=:mail");
             $sorgu -> execute(array('mail' => $_POST['kullanici_mail']));
@@ -15,6 +15,7 @@ if (isset($_POST['kayitOl'])) {
             $say = $sorgu->rowCount();
 
             if ($say == 0) {
+
                 $kullaniciParola = password_hash($_POST['kullanici_parola'],PASSWORD_DEFAULT);
 
                 $veriEkle = $db -> prepare("INSERT INTO tblkullanicilar SET 

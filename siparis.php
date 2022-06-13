@@ -18,9 +18,6 @@ $sorgu->execute();
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/meanmenu.min.css">
     <link rel="stylesheet" href="css/siparis.css">
 

@@ -50,7 +50,7 @@
                 <td>
                     <?php
                     if ($sliderCek['sliderDurumu']) {?>
-                        <a href="controller/SliderController.php?sliderId=<?php echo $sliderCek['sliderId'];?>csliderDurum=no"<button class="btn btn-info">Aktif</button></a>
+                        <a href="controller/SliderController.php?sliderId=<?php echo $sliderCek['sliderId'];?>&sliderDurum=no"<button class="btn btn-info">Aktif</button></a>
                     <?php }
                     else {?>
                         <a href="controller/SliderController.php?sliderId=<?php echo $sliderCek['sliderId'];?>&sliderDurum=ok"<button class="btn btn-danger">Pasif</button></a>

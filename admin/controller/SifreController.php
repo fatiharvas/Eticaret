@@ -94,6 +94,7 @@ if (isset($_POST['sifre'])) {
     $parola2 = $_POST['parola2'];
 
     if ($parola1 == $parola2) {
+
         $kullanici_id = $_SESSION['id'];
 
         $veriKaydet = $db->prepare("Update tblkullanicilar Set

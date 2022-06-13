@@ -59,7 +59,6 @@ if (isset($_POST['kategoriEkle'])) {
 
 if ($_GET['kategoridurum'] == 'no') {
 
-    islemKontrol();
     $update = $db ->prepare("Update tblkategori set kategori_durum = 0 where kategori_id={$_GET['kategori_id']}");
     $kontrol = $update -> execute();
 
@@ -72,7 +71,6 @@ if ($_GET['kategoridurum'] == 'no') {
 
 if ($_GET['kategoridurum'] == 'ok') {
 
-    islemKontrol();
     $update = $db ->prepare("Update tblkategori set kategori_durum = 1 where kategori_id={$_GET['kategori_id']}");
     $kontrol = $update -> execute();
 

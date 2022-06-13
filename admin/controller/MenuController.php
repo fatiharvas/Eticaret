@@ -69,7 +69,6 @@ if (isset($_POST['menuEkle'])) {
 
 if ($_GET['menusil'] == 'ok') {
 
-    islemKontrol();
     $delete = $db -> prepare("DELETE FROM tblmenuler WHERE menu_id=:id");
     $kontrol = $delete -> execute(array(
         'id' => $_GET['menu_id']

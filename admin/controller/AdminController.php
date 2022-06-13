@@ -151,8 +151,6 @@ if ($_GET['kullanicidurum'] == 'ok') {
 
 if ($_GET['kullanicisil'] == 'ok') {
 
-    islemKontrol();
-
     $delete = $db -> prepare("DELETE FROM tblkullanicilar WHERE kullanici_id=:id");
     $kontrol = $delete -> execute(array(
         'id' => $_GET['kullanici_id']

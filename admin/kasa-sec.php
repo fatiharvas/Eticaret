@@ -16,7 +16,7 @@
 
         <fieldset>
             <label for="KasaId">Kasa Seç</label>
-            <select name="kasa_id" id="KasaId">
+            <select name="kasa_id" id="KasaId" required>
 
                 <?php
 

@@ -1,7 +1,20 @@
 <?php include "index.php"; include "controller/KullaniciController.php";?>
 <link rel="stylesheet" href="css/table.css">
 <div class="container-fluid">
-    <h1 class="table-title">Kullanıcılar</h1>
+    <h1 class="table-title">Kullanıcılar
+        <small>
+            <?php
+            error_reporting(0);
+            if ($_GET['durum']=="ok") {?>
+                <b style="color:green;">İşlem Başarılı...</b>
+
+            <?php } elseif ($_GET['durum']=="no") {?>
+
+                <b style="color:red;">İşlem Başarısız...</b>
+
+            <?php } ?>
+        </small>
+    </h1>
     <table class="table-active">
         <thead class="table-header">
             <tr>
@@ -26,7 +39,14 @@
                     <td><?php echo $kullaniciCek['kullanici_zaman'];?></td>
                     <td><?php echo $kullaniciCek['kullanici_ad']," - ",$kullaniciCek['kullanici_soyad'];?></td>
                     <td><?php echo hideInformation($kullaniciCek['kullanici_mail'], 2, (strlen($kullaniciCek['kullanici_mail']) - 6));?></td>
-                    <td><?php echo hideInformation($kullaniciCek['kullanici_telefon'], 2, (strlen($kullaniciCek['kullanici_telefon']) - 4));?></td>
+                    <td>
+                        <?php if ($kullaniciCek['kullanici_telefon'] == null) {
+                            echo "-";
+
+                        }else {
+                            echo hideInformation($kullaniciCek['kullanici_telefon'], 2, (strlen($kullaniciCek['kullanici_telefon']) - 4));
+                         }?>
+                    </td>
                     <td>
                         <?php
                             if ($kullaniciCek['kullanici_durum']) {?>
@@ -37,7 +57,7 @@
                              <?php } ?>
                     </td>
                     <td>
-                        <a href="controller/KullaniciController.php?kullanici_id=<?php echo $kullaniciCek['kullanici_id'];?>&kullanicisil=ok">
+                        <a href="controller/KullaniciController.php?kullanici_id=<?php echo $kullaniciCek['kullanici_id'];?>&sil=ok">
                             <button class="btn btn-danger">Sil</button>
                         </a>
                     </td>
