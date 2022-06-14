@@ -41,13 +41,13 @@ $veriCek = $sorgu->fetch(PDO::FETCH_ASSOC);
                             <div class="col-md-6">
                                 <div class="form-group first">
                                     <label for="fname">Ad</label>
-                                    <input type="text" class="form-control" name="kullanici_ad" required value="<?php echo $veriCek['kullanici_ad']?>" id="fname">
+                                    <input type="text" maxlength="30" class="form-control" name="kullanici_ad" required value="<?php echo $veriCek['kullanici_ad']?>" id="fname">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group first">
                                     <label for="lname">Soyad</label>
-                                    <input type="text" class="form-control" name="kullanici_soyad" required value="<?php echo $veriCek['kullanici_soyad']?>" id="lname">
+                                    <input type="text" maxlength="30" class="form-control" name="kullanici_soyad" required value="<?php echo $veriCek['kullanici_soyad']?>" id="lname">
                                 </div>
                             </div>
                         </div>
@@ -55,7 +55,7 @@ $veriCek = $sorgu->fetch(PDO::FETCH_ASSOC);
                             <div class="col-md-12">
                                 <div class="form-group first">
                                     <label for="lname">Telefon Numarası</label>
-                                    <input type="text" class="form-control" name="kullanici_telefon" value="<?php echo $veriCek['kullanici_telefon']?>" id="lname">
+                                    <input type="text" maxlength="11" minlength="11" class="form-control" name="kullanici_telefon" value="<?php echo $veriCek['kullanici_telefon']?>" id="lname">
                                 </div>
                             </div>
                         </div>

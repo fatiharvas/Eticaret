@@ -23,22 +23,22 @@
             </fieldset>
             <fieldset>
                 <label for="SiteBasligi">Site Başlığı</label>
-                <input id="SiteBasligi" type="text" required tabindex="1" name="ayarTitle" value="<?php echo $ayarcek['ayarTitle']?>">
+                <input id="SiteBasligi" maxlength="20" type="text" required tabindex="1" name="ayarTitle" value="<?php echo $ayarcek['ayarTitle']?>">
             </fieldset>
 
             <fieldset>
                 <label for="SiteAciklama">Site Açıklaması</label>
-                <input id="SiteAciklama" type="text" tabindex="1" name="ayarDescription" value="<?php echo $ayarcek['ayarDescription']?>" >
+                <input id="SiteAciklama" maxlength="250" required type="text" tabindex="1" name="ayarDescription" value="<?php echo $ayarcek['ayarDescription']?>" >
             </fieldset>
 
             <fieldset>
                 <label for="SiteAnahtarKelime">Site Anahtar Kelime</label>
-                <input id="SiteAnahtarKelime" type="text" tabindex="1" name="ayarKeywords" value="<?php echo $ayarcek['ayarKeywords']?>">
+                <input id="SiteAnahtarKelime" maxlength="30" required type="text" tabindex="1" name="ayarKeywords" value="<?php echo $ayarcek['ayarKeywords']?>">
             </fieldset>
 
             <fieldset>
                 <label for="SitaYazari">Site Yazari</label>
-                <input id="SiteYazari" type="text" tabindex="1" name="ayarAuthor" value="<?php echo $ayarcek['ayarAuthor']?>">
+                <input id="SiteYazari" maxlength="20" type="text" tabindex="1" name="ayarAuthor" value="<?php echo $ayarcek['ayarAuthor']?>">
             </fieldset>
 
             <fieldset>

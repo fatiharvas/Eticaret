@@ -38,11 +38,11 @@
             <span class="simgeler">
                 <i class="flaticon-profile"></i>
             </span>
-            <input type="text" name="kullanici_ad" placeholder="Ad" required />
-            <input type="text" name="kullanici_soyad" placeholder="Soyad" required />
-            <input type="email" name="kullanici_mail" placeholder="E-Posta" required />
-            <input type="password" name="kullanici_parola" placeholder="Şifre" required />
-            <input type="password" name="kullanici_parola2" placeholder="Şifrenizi Onaylayın" required />
+            <input type="text" maxlength="30" name="kullanici_ad" placeholder="Ad" required />
+            <input type="text" maxlength="30" name="kullanici_soyad" placeholder="Soyad" required />
+            <input type="email" maxlength="50" name="kullanici_mail" placeholder="E-Posta" required />
+            <input type="password" maxlength="50" name="kullanici_parola" placeholder="Şifre" required />
+            <input type="password" maxlength="50" name="kullanici_parola2" placeholder="Şifrenizi Onaylayın" required />
             <button class="btn-primary" name="kayitOl">Kayıt Ol</button>
             <p class="message">Üye misiniz? <a target="_blank" href="login.php">Giriş Yap</a></p>
         </form>

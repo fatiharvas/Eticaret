@@ -30,18 +30,18 @@ $veriCek = $sorgu->fetch(PDO::FETCH_ASSOC);
                         <div class="row">
                             <div class="col-md-6 form-group mb-3">
                                 <label for="ad" class="col-form-label">Ad</label>
-                                <input type="text" class="form-control" name="ad" value="<?php echo $veriCek['ad']?>" id="ad" placeholder="Adınız" required>
+                                <input type="text" class="form-control" maxlength="50" name="ad" value="<?php echo $veriCek['ad']?>" id="ad" placeholder="Adınız" required>
                             </div>
                             <div class="col-md-6 form-group mb-3">
                                 <label for="soyad" class="col-form-label">Soyad</label>
-                                <input type="text" class="form-control" name="soyad" id="soyad" value="<?php echo $veriCek['soyad']?>" placeholder="Soyadınız" required>
+                                <input type="text" class="form-control" maxlength="50" name="soyad" id="soyad" value="<?php echo $veriCek['soyad']?>" placeholder="Soyadınız" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-12 form-group mb-3">
                                 <label for="telefon">Telefon</label>
-                                <input type="text" class="form-control" name="telefon" value="<?php echo $veriCek['telefon']?>" placeholder="Telefon" required>
+                                <input type="text" class="form-control" maxlength="11" minlength="11" name="telefon" value="<?php echo $veriCek['telefon']?>" placeholder="Telefon" required>
                             </div>
                         </div>
 
@@ -64,7 +64,7 @@ $veriCek = $sorgu->fetch(PDO::FETCH_ASSOC);
                         <div class="row">
                             <div class="col-md-12 form-group mb-3">
                                 <label for="message" class="col-form-label">Adres</label>
-                                <textarea class="form-control" name="adres" id="message" cols="30" rows="4"  placeholder="Adres" required><?php echo $veriCek['adres']?></textarea>
+                                <textarea class="form-control" maxlength="100" name="adres" id="message" cols="30" rows="4"  placeholder="Adres" required><?php echo $veriCek['adres']?></textarea>
                             </div>
                         </div>
                         <div class="row">

@@ -203,7 +203,7 @@ if ($_SESSION['user_mail']) {
                                         if ($yorum_siniri['yorum_siniri'] == 0) { ?>
                                             <div class="col-md-12">
                                                 <div class="form-group">
-                                                    <textarea class="ckeditor" name="yorum" id="message" maxlength="50" placeholder="Yorumunuz"></textarea>
+                                                    <textarea class="ckeditor" name="yorum" id="message" maxlength="250" placeholder="Yorumunuz"></textarea>
                                                 </div>
                                                 <input type="hidden" name="kullanici_id" value="<?php echo $kullaniciVeri['kullanici_id']?>">
                                                 <input type="hidden" name="urun_id" value="<?php echo $urunCek['urun_id']?>">

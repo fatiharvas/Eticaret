@@ -43,15 +43,17 @@ $sorgu->execute();
                         <tbody>
                         <?php
                         $toplamFiyat = 0;
-
+                        $flag = 0;
                         while ($sepet = $sorgu->fetch(PDO::FETCH_ASSOC)) {
-
-                            $toplamFiyat += $sepet['satis_fiyat']*$sepet['urun_adet'];
 
                             if ($sepet['stok'] == 0) {
                                 $sil = $db->prepare("delete from tblsepet where urun_id={$sepet['urun_id']}");
                                 $sil->execute();
+                                Header("Refresh:0");
                             }
+
+                            $toplamFiyat += $sepet['satis_fiyat']*$sepet['urun_adet'];
+
 
                             ?>
 
@@ -104,6 +106,7 @@ $sorgu->execute();
                         <?php if ($_GET['durum'] == "yok") {?>
                             <span style="color: red">Stoğu bulunmayan ürünler sepetten kaldırıldı. Tekrar Deneyin</span>
                         <?php } ?>
+
                     </h6>
                     <ul>
                         <li>Toplam fiyat <span><?php echo $toplamFiyat."₺"?></span></li>

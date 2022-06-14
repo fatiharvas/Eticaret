@@ -87,21 +87,21 @@ $veri = $kullanici_id->fetch(PDO::FETCH_ASSOC);
                         </div>
                         <div class="input-text">
                             <div class="input-div">
-                                <input type="text" name="kart_numarasi" required require>
+                                <input type="text" name="kart_numarasi" maxlength="16" minlength="16" required require>
                                 <span>Kart Numarası</span>
                             </div>
                         </div>
                         <div class="input-text">
                             <div class="input-div">
-                                <input type="date" name="son_kullanma_tarihi"
-                                       placeholder="dd-mm-yyyy" value=""
+                                <input required type="date" name="son_kullanma_tarihi"
+                                       placeholder="dd-mm-yyyy"
                                        min="1997-01-01" max="2030-12-31">
                             </div>
                         </div>
 
                         <div class="input-text">
                             <div class="input-div">
-                                <input type="text" name="cvv" required require>
+                                <input type="text" maxlength="3" minlength="3" name="cvv" required require>
                                 <span>CVV</span>
                             </div>
                         </div>
@@ -137,17 +137,17 @@ $veri = $kullanici_id->fetch(PDO::FETCH_ASSOC);
                             <div class="input-div">
 
                                 <input type="hidden" name="kullanici_id" value="<?php echo $veri['kullanici_id']?>">
-                                <input type="text" name="ad" value="" required require id="user_name">
+                                <input type="text" name="ad" maxlength="50" required require id="user_name">
                                 <span>Ad</span>
                             </div>
                             <div class="input-div">
-                                <input type="text" name="soyad" required require>
+                                <input type="text" name="soyad" maxlength="50" required require>
                                 <span>Soyad</span>
                             </div>
                         </div>
                         <div class="input-text">
                             <div class="input-div">
-                                <input type="text" name="telefon" required require>
+                                <input type="text" name="telefon" maxlength="11" minlength="11" required require>
                                 <span>Telefon Numarası</span>
                             </div>
                         </div>
@@ -165,7 +165,7 @@ $veri = $kullanici_id->fetch(PDO::FETCH_ASSOC);
                         </div>
                         <div class="input-text">
                             <div class="input-div">
-                                <input type="text" name="adres" required require>
+                                <input type="text" maxlength="100" name="adres" required require>
                                 <span>Adres</span>
                             </div>
                         </div>
@@ -182,21 +182,21 @@ $veri = $kullanici_id->fetch(PDO::FETCH_ASSOC);
                         </div>
                         <div class="input-text">
                             <div class="input-div">
-                                <input type="text" name="kart_numarasi" required require>
+                                <input type="text" maxlength="16" minlength="16" name="kart_numarasi" required require>
                                 <span>Kart Numarası</span>
                             </div>
                         </div>
                         <div class="input-text">
                             <div class="input-div">
                                 <input type="date" name="son_kullanma_tarihi"
-                                       placeholder="dd-mm-yyyy" value=""
+                                       placeholder="dd-mm-yyyy" required
                                        min="1997-01-01" max="2030-12-31">
                             </div>
                         </div>
 
                         <div class="input-text">
                             <div class="input-div">
-                                <input type="text" name="cvv" required require>
+                                <input type="text" name="cvv" maxlength="3" minlength="3" required require>
                                 <span>CVV</span>
                             </div>
                         </div>

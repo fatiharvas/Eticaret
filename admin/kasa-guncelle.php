@@ -18,7 +18,7 @@ $kasaCek = $kasa->fetch(PDO::FETCH_ASSOC);
 
         <fieldset>
             <label for="KasaAd">Kasa Ad</label>
-            <input id="KasaAd" name="kasa_adi" required type="text" value="<?php echo $kasaCek['kasa_adi']?>" tabindex="1">
+            <input id="KasaAd" maxlength="20" name="kasa_adi" required type="text" value="<?php echo $kasaCek['kasa_adi']?>" tabindex="1">
         </fieldset>
 
         <fieldset>

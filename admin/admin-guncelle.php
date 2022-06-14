@@ -19,17 +19,17 @@ $veriCek = $adminSorgu->fetch(PDO::FETCH_ASSOC);
 
         <fieldset>
             Admin Ad<br>
-            <input  type="text" tabindex="1" required name="kullanici_ad"  value="<?php echo $veriCek['kullanici_ad']?>">
+            <input  type="text" maxlength="30" tabindex="1" required name="kullanici_ad"  value="<?php echo $veriCek['kullanici_ad']?>">
         </fieldset>
 
         <fieldset>
             Admin Soyad<br>
-            <input  type="text" tabindex="1" required name="kullanici_soyad" value="<?php echo $veriCek['kullanici_soyad']?> ">
+            <input  type="text" maxlength="30" tabindex="1" required name="kullanici_soyad" value="<?php echo $veriCek['kullanici_soyad']?> ">
         </fieldset>
 
         <fieldset>
             Admin Mail<br>
-            <input  type="text" tabindex="1" required name="kullanici_mail" value="<?php echo $veriCek['kullanici_mail']?>">
+            <input  type="text" tabindex="1" maxlength="50" required name="kullanici_mail" value="<?php echo $veriCek['kullanici_mail']?>">
             <?php
             error_reporting(0);
             if ($_GET['durum']=="mukerrer") {?>
@@ -39,12 +39,12 @@ $veriCek = $adminSorgu->fetch(PDO::FETCH_ASSOC);
 
         <fieldset>
             Admin Telefon<br>
-            <input  type="tel" tabindex="1" required name="kullanici_telefon" value="<?php echo $veriCek['kullanici_telefon']?>">
+            <input  type="tel" minlength="11" maxlength="11" tabindex="1" required name="kullanici_telefon" value="<?php echo $veriCek['kullanici_telefon']?>">
         </fieldset>
 
         <fieldset>
             Parolanızı Girin<br>
-            <input  type="password" tabindex="1" name="kullanici_parola">
+            <input type="password" maxlength="50" tabindex="1" name="kullanici_parola">
             <?php
             error_reporting(0);
             if ($_GET['durum']=="parolahatali") {?>
@@ -54,12 +54,12 @@ $veriCek = $adminSorgu->fetch(PDO::FETCH_ASSOC);
 
         <fieldset>
             Yeni Parola<br>
-            <input  type="password" name="yeni_parola" tabindex="1">
+            <input  type="password" maxlength="50" name="yeni_parola" tabindex="1">
         </fieldset>
 
         <fieldset>
             Yeni Parola Onaylayın<br>
-            <input  type="password" name="yeni_parola2" tabindex="1">
+            <input  type="password" maxlength="50" name="yeni_parola2" tabindex="1">
             <?php
             error_reporting(0);
             if ($_GET['durum']=="parolauyusmuyor") {?>

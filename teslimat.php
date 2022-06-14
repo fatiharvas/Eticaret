@@ -126,7 +126,7 @@ $sorgu->execute();
 
 <?php }else
 
-     header("Location:/index.php/odeme.php");
+     Header("Location:odeme.php");
 
     ?>
 

@@ -10,27 +10,27 @@
 
         <fieldset>
             <label for="Baslik">Başlık</label>
-            <input id="Baslik" name="baslik" type="text" tabindex="1" value="<?php echo $veriCek['baslik']?>" required >
+            <input id="Baslik" maxlength="20" name="baslik" type="text" tabindex="1" value="<?php echo $veriCek['baslik']?>" required >
         </fieldset>
 
         <fieldset>
             <label for="Icerik">İçerik</label>
-            <textarea class="ckeditor" id="Icerik" name="icerik" required style="width: 100%" ><?php echo $veriCek['icerik']?></textarea>
+            <textarea class="ckeditor" maxlength="10000" id="Icerik" name="icerik" required style="width: 100%" ><?php echo $veriCek['icerik']?></textarea>
         </fieldset>
 
         <fieldset>
             <label for="Video">Video Adresi</label>
-            <input  type="url" id="Video" name="video" required tabindex="1" value="<?php echo $veriCek['video']?>" >
+            <input  type="url" id="Video" maxlength="50" name="video" required tabindex="1" value="<?php echo $veriCek['video']?>" >
         </fieldset>
 
         <fieldset>
             <label for="Vizyon">Vizyon</label>
-            <input id="Vizyon" name="vizyon" required type="text" tabindex="1" value="<?php echo $veriCek['vizyon']?>">
+            <input id="Vizyon" name="vizyon" maxlength="500" required type="text" tabindex="1" value="<?php echo $veriCek['vizyon']?>">
         </fieldset>
 
         <fieldset>
             <label for="Misyon">Misyon</label>
-            <input id="Misyon" name="misyon" required type="text" tabindex="1" value="<?php echo $veriCek['misyon']?>">
+            <input id="Misyon" name="misyon" maxlength="500" required type="text" tabindex="1" value="<?php echo $veriCek['misyon']?>">
         </fieldset>
 
         <fieldset>

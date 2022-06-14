@@ -18,12 +18,12 @@ $veriCek = $sorgu -> fetch(PDO::FETCH_ASSOC);
 
         <fieldset>
             <label for="KategoriAd">Kategori Ad</label>
-            <input id="KategoriAd" name="kategori_ad" value="<?php echo $veriCek['kategori_ad']?>" required type="text" tabindex="1">
+            <input id="KategoriAd" maxlength="100" name="kategori_ad" value="<?php echo $veriCek['kategori_ad']?>" required type="text" tabindex="1">
         </fieldset>
 
         <fieldset>
             <label for="KategoriSira">Kategori Sira</label>
-            <input type="number" name="kategori_sira" value="<?php echo $veriCek['kategori_sira']?>" min="1" required tabindex="1" >
+            <input type="number" name="kategori_sira" minlength="1" value="<?php echo $veriCek['kategori_sira']?>" required tabindex="1" >
         </fieldset>
 
         <fieldset>

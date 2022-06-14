@@ -7,7 +7,7 @@
 
         <fieldset>
             <label for="KasaAd">Kasa Ad</label>
-            <input id="KasaAd" name="kasa_adi" required type="text" tabindex="1">
+            <input id="KasaAd" maxlength="50" name="kasa_adi" required type="text" tabindex="1">
         </fieldset>
 
         <fieldset>

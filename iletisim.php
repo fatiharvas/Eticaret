@@ -39,8 +39,8 @@
                         if ($_SESSION['user_mail']) { ?>
 
                             <form action="admin/controller/MailController.php" method="post">
-                                <p><input style="width: 100%;" type="text" placeholder="Konu" name="konu"></p>
-                                <p><textarea name="message" id="message" cols="30" rows="10" placeholder="Mesaj"></textarea></p>
+                                <p><input style="width: 100%;" type="text" required minlength="2" maxlength="20" placeholder="Konu" name="konu"></p>
+                                <p><textarea name="message" id="message" required minlength="1" maxlength="500" cols="30" rows="10" placeholder="Mesaj"></textarea></p>
                                 <p><input name="mailGonder" type="submit" value="Gönder"></p>
                                 <input type="hidden" name="kullanici_mail" value="<?php echo $_SESSION['user_mail'] ?>">
                             </form>

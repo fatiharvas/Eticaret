@@ -9,22 +9,22 @@
 
         <fieldset>
             <label for="Facebook">Facebook Adresi</label>
-            <input id="Facebook" name="ayarFacebook" type="text" tabindex="1" value="<?php echo $ayarcek['ayarFacebook']?>">
+            <input id="Facebook" maxlength="50" name="ayarFacebook" type="text" tabindex="1" value="<?php echo $ayarcek['ayarFacebook']?>">
         </fieldset>
 
         <fieldset>
             <label for="Instagram">İnstagram Adresi</label>
-            <input id="Instagram" name="ayarInstagram" type="text" tabindex="1" value="<?php echo $ayarcek['ayarInstagram']?>">
+            <input id="Instagram" maxlength="50" name="ayarInstagram" type="text" tabindex="1" value="<?php echo $ayarcek['ayarInstagram']?>">
         </fieldset>
 
         <fieldset>
             <label for="Twitter">Twitter Adresi</label>
-            <input id="Twitter" name="ayarTwitter" type="text" tabindex="1" value="<?php echo $ayarcek['ayarTwitter']?>">
+            <input id="Twitter" maxlength="50" name="ayarTwitter" type="text" tabindex="1" value="<?php echo $ayarcek['ayarTwitter']?>">
         </fieldset>
 
         <fieldset>
             <label for="Youtube">Youtube Adresi</label>
-            <input id="Youtube" name="ayarYoutube" type="text" tabindex="1" value="<?php echo $ayarcek['ayarYoutube']?>">
+            <input id="Youtube" maxlength="50" name="ayarYoutube" type="text" tabindex="1" value="<?php echo $ayarcek['ayarYoutube']?>">
         </fieldset>
 
         <fieldset>

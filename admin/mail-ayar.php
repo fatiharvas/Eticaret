@@ -9,22 +9,22 @@
 
         <fieldset>
             <label for="Mail">Mail Adresiniz</label>
-            <input id="Mail" name="ayarMail" type="text" tabindex="1" value="<?php echo hideInformation($ayarcek['ayarMail'],2,7)?>">
+            <input id="Mail" maxlength="30" name="ayarMail" type="text" tabindex="1" value="<?php echo hideInformation($ayarcek['ayarMail'],2,7)?>">
         </fieldset>
 
         <fieldset>
             <label for="Mail">Mevcut Parolanız</label>
-            <input id="Mail" name="parola1" type="password" tabindex="1">
+            <input id="Mail" maxlength="50" required name="parola1" type="password" tabindex="1">
         </fieldset>
 
         <fieldset>
             <label for="Mail">Parola</label>
-            <input id="Mail" name="parola2" type="password" tabindex="1">
+            <input id="Mail" name="parola2" maxlength="50" required type="password" tabindex="1">
         </fieldset>
 
         <fieldset>
             <label for="Mail">Parolanızı Onaylayın</label>
-            <input id="Mail" name="parola3" type="password" tabindex="1">
+            <input id="Mail" name="parola3" maxlength="50" required type="password" tabindex="1">
         </fieldset>
 
 
